@@ -25,6 +25,8 @@ This project was built using these technologies.
 
 2. In the project directory, run: `npm start`
 
+3. To deploy the website run `npm run deploy`
+
 ## Thanks!
 
 Credit Template [Soumyajit4419](https://github.com/soumyajit4419/)
