@@ -1,7 +1,4 @@
-<h2 align="center">
-  Portfolio Website<br/>
-  <a href="http://billyfrcs.github.io/" target="_blank">BillyFrcs.github.io</a>
-</h2>
+<h1 align="center"> Portfolio Website </h1>
 
 My personal portfolio website, which features some of my github projects technical skills.<br/>
 
