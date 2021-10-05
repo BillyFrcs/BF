@@ -25,7 +25,7 @@ function Toolstack() {
         <SiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGimp />
+        <SiBlender />
       </Col>
     </Row>
   );
