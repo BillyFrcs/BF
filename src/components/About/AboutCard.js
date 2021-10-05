@@ -25,7 +25,7 @@ function AboutCard() {
               <ImPointRight /> Playing Video Games🎮.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Game Design 3D modeling.
+              <ImPointRight /> Learn Game Design 3D modeling.
             </li>
           </ul>
 
