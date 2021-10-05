@@ -19,14 +19,12 @@ function Home2() {
               Getting <span className="purple"> Started </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
+              I am a Computer Science Student at the University.
               <br />At the moment, i'm using 
               <i>
                 <b className="purple"> C++ and C# </b>
               </i>
-              as my main language because i'm using <b className="purple"> Unity Game Engine</b> to developed my games.
+              as my main programming language because i'm using <b className="purple"> Unity Game Engine</b> to developed my games.
               <br />
               <br />
               My field of Interest's are building new &nbsp;
