@@ -8,15 +8,24 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I'm <span className="purple">Billy Franscois, </span>
+            Hi!,  My name is <span className="purple">Billy Franscois, </span>
             I'm a Computer Science Student and beginner Game Developer.
             <br />
+            I like to playing games 🎮 So in this way I can improve my skills
+            and move on to the new things. And i decided to learn something
+            new about Game Development.
             <br />
-            Apart from making my games, some other activities that I like to do !
+            Maybe some people says Game Development is hard, but i will never give up to learning more and more again.
+            <br />
+            <br />
+            Apart from learning and making games, some other activities that I like to do !
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Video Games 🎮
+              <ImPointRight /> Playing Video Games🎮.
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Game Design 3D modeling.
             </li>
           </ul>
 
