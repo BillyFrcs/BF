@@ -66,6 +66,16 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
+                  href="https://www.instagram.com/billyfrcs/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://twitter.com/billyfrcs"
                   target="_blank"
                   rel="noreferrer"
@@ -82,16 +92,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/billyfrcs/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

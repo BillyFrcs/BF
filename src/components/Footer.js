@@ -33,6 +33,16 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
+                href="https://www.instagram.com/billyfrcs/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
                 href="https://twitter.com/billyfrcs"
                 style={{ color: "white" }}
                 target="_blank" 
@@ -49,16 +59,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/billyfrcs/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
               </a>
             </li>
           </ul>
