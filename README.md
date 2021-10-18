@@ -27,7 +27,7 @@ This project was built using these technologies.
 
 3. To deploy the website run `npm run deploy`
 
-> ⚠️ This Website still in development and is not fully functional
+>⚠️This Website still in development and is not fully functional
 
 ## Thanks!
 
