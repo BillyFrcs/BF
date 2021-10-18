@@ -4,16 +4,16 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiGit,
 } from "react-icons/di";
-import { SiFirebase, SiCsharp, SiGithub } from "react-icons/si";
+import { SiFirebase, SiCsharp, SiGithub, SiGitlab } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCsharp />
+        <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -22,7 +22,7 @@ function Techstack() {
         <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiGitlab />
       </Col>
     </Row>
   );
