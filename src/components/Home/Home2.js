@@ -22,9 +22,9 @@ function Home2() {
               I am a Computer Science Student at the University.
               <br />At the moment, i'm using 
               <i>
-                <b className="purple"> C++ and C# </b>
+                <b className="purple"> C# </b>
               </i>
-              as my main programming language because i'm using <b className="purple"> Unity Game Engine</b> to developed my games.
+              as my main Programming Language because i'm using <b className="purple"> Unity Engine</b> to developed my games.
               <br />
               <br />
               My field of Interest's are building new &nbsp;
@@ -37,8 +37,8 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for learning and developing products
-              with <b className="purple">Unreal Engine </b>even though i'm still learning the engine😁.
+              Whenever possible, I also apply my passion for developing my products
+              with <b className="purple">Unreal Engine C++ & Blueprint </b>in the future.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
