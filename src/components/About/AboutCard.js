@@ -18,9 +18,10 @@ function AboutCard() {
             But at the moment i didn't released my games yet because i'm still learning and the games still sucks 😅,
             but you can see the my open source projects on my Github. But i hope in the future i could released my full games.😁
             <br />
+            {/*
             Maybe some people says <span className = "purple">Game Development</span> is hard, but i will never give up to learning more and more again until become professional
             <span className="purple"> Game Developer.</span>
-            <br />
+            */}
             <br />
             Apart from learning and making games, some other activities that I like to do !
           </p>
