@@ -461,8 +461,17 @@ html {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
+  height: 80% !important; /*default 100*/
+}
+
+.flappy-bird{
   height: 100% !important;
 }
+
+.snake{
+  height: 100% !important;
+}
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
