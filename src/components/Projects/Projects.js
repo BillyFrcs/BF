@@ -17,7 +17,7 @@ function Projects() {
           My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are my open source projects that I've been working on.
+          Here are my open source Games projects that I've been working on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card snake-boxes">
@@ -30,12 +30,12 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card redux">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={reduxadventure}
               isBlog={false}
               title="Redux Adventure"
-              description="A simple 2D Platformer Game created from scratch. only using C++ Graphics library(SFML),no Game Engine required."
+              description="A simple 2D Platformer Game created from scratch without Game Engine. only using C++ Graphics library(SFML)"
               link="https://github.com/BillyFrcs/ReduxAdventure"
             />
           </Col>
