@@ -20,7 +20,7 @@ function Projects() {
           Here are my open source projects that I've been working on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card snake-boxes">
             <ProjectCard
               imgPath={snakeboxes}
               isBlog={false}
@@ -30,7 +30,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card redux">
             <ProjectCard
               imgPath={reduxadventure}
               isBlog={false}
