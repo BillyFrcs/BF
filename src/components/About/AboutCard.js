@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi again!😃My name is <span className="purple">Billy Franscois, </span>
-            I'm a Computer Science Student and beginner <span className="purple">Game Developer.</span>
+            I'm a Computer Science Student and <span className="purple">Game Developer.</span>
             <br />
             I like to playing games🎮 So in this way I can improve my skills
             and move on to the new things. And i decided to learn something

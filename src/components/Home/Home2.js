@@ -19,26 +19,27 @@ function Home2() {
               Getting <span className="purple"> Started </span>
             </h1>
             <p className="home-about-body">
-              I am a Computer Science Student at the University.
-              <br />At the moment, i'm using 
+              Hi, I'm Billy and i'm a Computer Science Student at the University.
+              <br />My passionate about <b className="purple">Programming and Development</b>, especially in <b className="purple">Game Development.</b>
               <i>
-                <b className="purple"> C# </b>
+                <b className="purple"> </b>
               </i>
-              as my main Programming Language because i'm using <b className="purple"> Unity Engine</b> to developed my games.
+              <b className="purple"> </b>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Game Technologies and Products </b> and
+              <b className="purple">Game Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Game Design.
-                </b>
-              </i>
+                <b className="purple">Game Design. </b>
               <br />
               <br />
+              To read more details about me, please go to my <b className="purple">About</b> page🙂.
+              <br />
+              <br />
+              {/*
               Whenever possible, I also apply my passion for developing my products
               with <b className="purple">Unreal Engine C++ & Blueprint </b>in the future.
+              */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
