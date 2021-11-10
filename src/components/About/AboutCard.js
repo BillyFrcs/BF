@@ -2,7 +2,8 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
-function AboutCard() {
+function AboutCard()
+{
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -13,10 +14,9 @@ function AboutCard() {
             <br />
             I like to playing games🎮 So in this way I can improve my skills
             and move on to the new things. And i decided to learn something
-            new about <span className = "purple">Game Development</span>.
+            new about <span className="purple">Game Development</span>.
             <br />
-            But at the moment i didn't released my games yet because i'm still learning and the games still sucks 😅,
-            but you can see my open source projects on my Github. I hope in the future i could released my full games.😁
+            I've already released a few Games that i've been working by myself. you can go to Games section to see my released Games.
             <br />
             {/*
             Maybe some people says <span className = "purple">Game Development</span> is hard, but i will never give up to learning more and more again until become professional
