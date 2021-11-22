@@ -16,12 +16,8 @@ function AboutCard()
             and move on to the new things. And i decided to learn something
             new about <span className="purple">Game Development</span>.
             <br />
-            I've already released a few Games that i've been working by myself. you can go to Games section to see my released Games.
+            I've already released a few Games that i've been working by myself. you can go to Games section to see my released Games. And if you want to see my Projects you can go to Projects section.
             <br />
-            {/*
-            Maybe some people says <span className = "purple">Game Development</span> is hard, but i will never give up to learning more and more again until become professional
-            <span className="purple"> Game Developer.</span>
-            */}
             <br />
             Apart from learning and making games, some other activities that I like to do !
           </p>
