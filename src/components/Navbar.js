@@ -8,14 +8,16 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import
-  {
-    AiFillStar,
-    AiOutlineHome,
-    AiOutlineFundProjectionScreen,
-    AiOutlineUser,
-  } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+{
+  AiFillStar,
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+  AiFillHome,
+  AiFillProject,
+} from "react-icons/ai";
+import { IoGameController } from "react-icons/io5"
+import { FaUser, FaLaptopCode } from "react-icons/fa"
 
 function NavBar()
 {
@@ -59,7 +61,7 @@ function NavBar()
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiFillHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -69,7 +71,20 @@ function NavBar()
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <FaUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/games"
+                onClick={() => updateExpanded(false)}
+              >
+                <IoGameController
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Games
               </Nav.Link>
             </Nav.Item>
 
@@ -79,10 +94,10 @@ function NavBar()
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <FaLaptopCode
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Games
+                Projects
               </Nav.Link>
             </Nav.Item>
 

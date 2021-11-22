@@ -1,15 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
+import
+{
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillMail,
   AiOutlineMail,
+  AiFillGitlab,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaVoicemail } from "react-icons/fa";
 
-function Footer() {
+function Footer()
+{
   let date = new Date();
   let year = date.getFullYear();
   return (
@@ -27,7 +30,7 @@ function Footer() {
               <a
                 href="https://github.com/BillyFrcs"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,9 +38,19 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
+                href="https://gitlab.com/BillyFrcs"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGitlab />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
                 href="https://www.instagram.com/billyfrcs/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
@@ -47,7 +60,7 @@ function Footer() {
               <a
                 href="https://twitter.com/billyfrcs"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -57,7 +70,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/billy-franscois-b4816221a/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -67,7 +80,7 @@ function Footer() {
               <a
                 href="mailto:billyfranscois19@gmail.com"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillMail />

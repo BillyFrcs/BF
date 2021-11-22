@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Games from "./components/Games/Games";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -13,14 +14,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
 
-function App() {
+function App()
+{
   const [load, upadateLoad] = useState(true);
-  
-  useEffect(() => {
-    const timer = setTimeout(() => {
+
+  useEffect(() =>
+  {
+    const timer = setTimeout(() =>
+    {
       upadateLoad(false);
     }, 1200);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -32,6 +36,7 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/games" component={Games} />
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
