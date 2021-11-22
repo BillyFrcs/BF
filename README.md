@@ -27,8 +27,6 @@ This project was built using these technologies.
 
 3. To deploy the website run `npm run deploy`
 
->⚠️This Website still in development and is not fully functional.
-
 ## Thanks!
 
 Credit Template [Soumyajit4419](https://github.com/soumyajit4419/)
