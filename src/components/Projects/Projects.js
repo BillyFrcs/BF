@@ -24,7 +24,7 @@ function Projects()
               isBlog={false}
               title="Runner Man"
               description="Simple 3D Endless Runner game created using Unreal Engine 4 with Full C++ implementation."
-              link="https://billyfrcs.itch.io/snakeboxes"
+              link="https://github.com/BillyFrcs/RunnerMan"
             />
           </Col>
         </Row>
