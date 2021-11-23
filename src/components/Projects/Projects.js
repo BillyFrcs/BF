@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import runnerman from "../../Assets/Projects/RunnerMan.gif";
+import coronarunner from "../../Assets/Projects/coronaRunner.gif";
 
 function Projects()
 {
@@ -25,6 +26,15 @@ function Projects()
               title="Runner Man"
               description="Simple 3D Endless Runner game created using Unreal Engine 4 with Full C++ implementation."
               link="https://github.com/BillyFrcs/RunnerMan"
+            />
+          </Col>
+          <Col md={4} className="project-card snake-boxes">
+            <ProjectCard
+              imgPath={coronarunner}
+              isBlog={false}
+              title="Corona Runner"
+              description="Corona Runner is a 2D endless runner Game that theme about Corona Virus created using Unity Engine."
+              link="https://github.com/BillyFrcs/CoronaRunner"
             />
           </Col>
         </Row>
