@@ -38,16 +38,6 @@ function Footer()
             </li>
             <li className="social-icons">
               <a
-                href="https://gitlab.com/BillyFrcs"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGitlab />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.instagram.com/billyfrcs/"
                 style={{ color: "white" }}
                 target="_blank"

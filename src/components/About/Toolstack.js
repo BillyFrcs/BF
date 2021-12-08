@@ -1,15 +1,18 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
+import
+{
   SiVisualstudiocode,
   SiVisualstudio,
   SiUnity,
   SiUnrealengine,
   SiGimp,
   SiBlender,
+  SiRider,
 } from "react-icons/si";
 
-function Toolstack() {
+function Toolstack()
+{
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -19,10 +22,13 @@ function Toolstack() {
         <SiUnrealengine />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudio />
+        <SiRider />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBlender />

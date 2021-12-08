@@ -1,12 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiGit,
-} from "react-icons/di";
+import
+  {
+    DiGit,
+  } from "react-icons/di";
 import { SiFirebase, SiCsharp, SiGithub, SiGitlab } from "react-icons/si";
 
-function Techstack() {
+function Techstack()
+{
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
