@@ -2,9 +2,9 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import
-  {
-    DiGit,
-  } from "react-icons/di";
+{
+  DiGit,
+} from "react-icons/di";
 import { SiFirebase, SiCsharp, SiGithub, SiGitlab } from "react-icons/si";
 
 function Techstack()
