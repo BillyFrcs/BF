@@ -25,7 +25,7 @@ This project was built using these technologies.
 
 2. In the project directory, run: `npm start`
 
-3. To deploy the website run `npm run deploy`
+3. To deploy the website run: `npm run deploy`
 
 ## Thanks!
 
