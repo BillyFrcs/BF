@@ -3,9 +3,9 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import
 {
-  DiGit,
+  DiGit, DiJava,
 } from "react-icons/di";
-import { SiFirebase, SiCsharp, SiGithub, SiGitlab } from "react-icons/si";
+import { SiFirebase, SiCsharp, SiGithub, SiGitlab, SiJava, SiCplusplus } from "react-icons/si";
 
 function Techstack()
 {
@@ -15,7 +15,10 @@ function Techstack()
         <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiCplusplus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
