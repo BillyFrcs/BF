@@ -1,6 +1,6 @@
 <h1 align="center"> Portfolio Website </h1>
 
-My personal portfolio website, which features some of my github projects and technical skills.<br/>
+My personal portfolio website, which features some of my Github Projects and Games especially my technical skills.<br/>
 
 This project was built using these technologies.
 
