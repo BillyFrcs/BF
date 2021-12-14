@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import GamesCard from "./GamesCard";
 import Particle from "../Particle";
 
-import snakeboxes from "../../Assets/Projects/SnakeBoxes.gif";
-import weadowrise from "../../Assets/Projects/WeadowRise.gif"
+import snakeboxes from "../../Assets/Games/SnakeBoxes.gif";
+import weadowrise from "../../Assets/Games/WeadowRise.gif"
 
 function Games()
 {

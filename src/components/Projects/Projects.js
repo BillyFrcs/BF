@@ -4,7 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import runnerman from "../../Assets/Projects/RunnerMan.gif";
-import coronarunner from "../../Assets/Projects/coronaRunner.gif";
+import coronarunner from "../../Assets/Projects/CoronaRunner.gif";
+import flappybird from "../../Assets/Projects/FlappyBird.gif";
+import reduxadventure from "../../Assets/Projects/ReduxAdventure.gif";
+import snakelol from "../../Assets/Projects/SnakeLol.gif";
 
 function Projects()
 {
@@ -35,6 +38,33 @@ function Projects()
               title="Corona Runner"
               description="Corona Runner is a 2D endless runner Game that theme about Corona Virus created using Unity Engine."
               link="https://github.com/BillyFrcs/CoronaRunner"
+            />
+          </Col>
+          <Col md={4} className="project-card snake-boxes">
+            <ProjectCard
+              imgPath={reduxadventure}
+              isBlog={false}
+              title="Redux Adventure"
+              description="Redux Adventure is a simple 2D platform Game that created from scratch using SFML C++ library no Game Engine."
+              link="https://github.com/BillyFrcs/ReduxAdventure"
+            />
+          </Col>
+          <Col md={4} className="project-card snake-boxes">
+            <ProjectCard
+              imgPath={snakelol}
+              isBlog={false}
+              title="Snake Lol"
+              description="Snake Lol is a simple 2D Snake Game that created from scratch using SFML C++ graphics library."
+              link="https://github.com/BillyFrcs/2DSnake"
+            />
+          </Col>
+          <Col md={4} className="project-card snake-boxes">
+            <ProjectCard
+              imgPath={flappybird}
+              isBlog={false}
+              title="Flappy Bird"
+              description="Flappy Bird clone created from scratch using SFML C++ graphics library."
+              link="https://github.com/BillyFrcs/FlappyBird"
             />
           </Col>
         </Row>
