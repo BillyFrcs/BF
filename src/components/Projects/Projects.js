@@ -55,7 +55,7 @@ function Projects()
               isBlog={false}
               title="Snake Lol"
               description="Snake Lol is a simple 2D Snake Game that created from scratch using SFML C++ graphics library."
-              link="https://github.com/BillyFrcs/2DSnake"
+              link="https://github.com/BillyFrcs/SnakeLol"
             />
           </Col>
           <Col md={4} className="project-card snake-boxes">
