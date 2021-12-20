@@ -2,14 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import
+  {
+    AiFillGithub,
+    AiOutlineTwitter,
+    AiFillInstagram,
+  } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+function Home2()
+{
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -19,7 +21,7 @@ function Home2() {
               Getting <span className="purple"> Started </span>
             </h1>
             <p className="home-about-body">
-              Hi, I'm Billy and i'm a Computer Science Student at the University.
+              Hi, I'm Billy and i'm a Computer Science Student at University.
               <br />My passionate about <b className="purple">Programming and Development</b>, especially in <b className="purple">Game Development.</b>
               <i>
                 <b className="purple"> </b>
@@ -29,8 +31,8 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <b className="purple">Game Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Game Design. </b>
+              also in areas related to{" "}
+              <b className="purple">Game Design. </b>
               <br />
               <br />
               To read more details about me, please go to my <b className="purple">About</b> page🙂.
