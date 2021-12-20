@@ -16,7 +16,7 @@ function Games()
                          My Recent <strong className="purple">Games </strong>
                     </h1>
                     <p style={{ color: "white" }}>
-                         Here are my <span className="purple">Games</span> that I've been released you could try and Play it for free.
+                         Here are my <span className="purple">Games</span> that I've been released.
                     </p>
                     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                          <Col md={4} className="project-card snake-boxes">
