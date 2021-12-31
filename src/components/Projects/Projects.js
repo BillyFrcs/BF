@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 import runnerman from "../../Assets/Projects/RunnerMan.gif";
 import coronarunner from "../../Assets/Projects/CoronaRunner.gif";
+import fireworks from "../../Assets/Projects/Fireworks.gif";
 import flappybird from "../../Assets/Projects/FlappyBird.gif";
 import reduxadventure from "../../Assets/Projects/ReduxAdventure.gif";
 import snakelol from "../../Assets/Projects/SnakeLol.gif";
@@ -38,6 +39,15 @@ function Projects()
               title="Corona Runner"
               description="Corona Runner is a 2D endless runner Game that theme about Corona Virus created using Unity Engine."
               link="https://github.com/BillyFrcs/CoronaRunner"
+            />
+          </Col>
+          <Col md={4} className="project-card snake-boxes">
+            <ProjectCard
+              imgPath={fireworks}
+              isBlog={false}
+              title="Fireworks VFX"
+              description="Snake Lol is a simple 2D Snake Game that created from scratch using SFML C++ graphics library."
+              link="https://github.com/BillyFrcs/SnakeLol"
             />
           </Col>
           <Col md={4} className="project-card snake-boxes">
