@@ -46,8 +46,8 @@ function Projects()
               imgPath={fireworks}
               isBlog={false}
               title="Fireworks VFX"
-              description="Snake Lol is a simple 2D Snake Game that created from scratch using SFML C++ graphics library."
-              link="https://github.com/BillyFrcs/SnakeLol"
+              description="Fireworks VFX created using Visual Effect Graph from Unity & High Definition Render Pipeline(HDRP)."
+              link="https://github.com/BillyFrcs/FireworksVFX"
             />
           </Col>
           <Col md={4} className="project-card snake-boxes">
