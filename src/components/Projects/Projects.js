@@ -50,6 +50,7 @@ function Projects()
               link="https://github.com/BillyFrcs/FireworksVFX"
             />
           </Col>
+          {/*
           <Col md={4} className="project-card snake-boxes">
             <ProjectCard
               imgPath={reduxadventure}
@@ -77,6 +78,7 @@ function Projects()
               link="https://github.com/BillyFrcs/FlappyBird"
             />
           </Col>
+          */}
         </Row>
       </Container>
     </Container>
