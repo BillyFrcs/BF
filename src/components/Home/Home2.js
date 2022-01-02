@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import
-  {
-    AiFillGithub,
-    AiOutlineTwitter,
-    AiFillInstagram,
-  } from "react-icons/ai";
+{
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2()
@@ -22,7 +22,7 @@ function Home2()
             </h1>
             <p className="home-about-body">
               Hi, I'm Billy and i'm a Computer Science Student at University.
-              <br />My passionate about <b className="purple">Programming and Development</b>, especially in <b className="purple">Game Development.</b>
+              <br />My passionate is about <b className="purple">Programming and Development</b>, especially in <b className="purple">Game Development.</b>
               <i>
                 <b className="purple"> </b>
               </i>
