@@ -29,4 +29,4 @@ This project was built using these technologies.
 
 ## Thanks!
 
-This website is originally created by [Soumyajit4419](https://github.com/soumyajit4419/)
+This website is originally created by this dude [Soumyajit4419](https://github.com/soumyajit4419/)
