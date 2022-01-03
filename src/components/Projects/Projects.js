@@ -28,7 +28,7 @@ function Projects()
               imgPath={runnerman}
               isBlog={false}
               title="Runner Man"
-              description="Simple 3D Endless Runner game created using Unreal Engine 4 with Full C++ implementation."
+              description="Simple 3D Endless Runner game created using Unreal Engine 4 with C++ and Blueprint Visual Scripting."
               link="https://github.com/BillyFrcs/RunnerMan"
             />
           </Col>
