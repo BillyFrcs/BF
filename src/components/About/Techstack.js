@@ -5,12 +5,15 @@ import
 {
   DiGit, DiJava,
 } from "react-icons/di";
-import { SiFirebase, SiCsharp, SiGithub, SiGitlab, SiJava, SiCplusplus } from "react-icons/si";
+import { SiFirebase, SiCsharp, SiGithub, SiGitlab, SiJava, SiCplusplus, SiDotnet } from "react-icons/si";
 
 function Techstack()
 {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
       </Col>

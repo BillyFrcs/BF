@@ -29,9 +29,9 @@ function Footer()
             <li className="social-icons">
               <a
                 href="https://github.com/BillyFrcs"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="icon-github color-icons"
               >
                 <AiFillGithub />
               </a>
@@ -39,9 +39,9 @@ function Footer()
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/billyfrcs/"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="icon-instagram color-icons"
               >
                 <AiFillInstagram />
               </a>
@@ -49,9 +49,9 @@ function Footer()
             <li className="social-icons">
               <a
                 href="https://twitter.com/billyfrcs"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="icon-twitter color-icons"
               >
                 <AiOutlineTwitter />
               </a>
@@ -59,23 +59,27 @@ function Footer()
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/billy-franscois-b4816221a/"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="icon-linkedin color-icons"
               >
                 <FaLinkedinIn />
               </a>
             </li>
+
+            {/*
             <li className="social-icons">
               <a
                 href="mailto:billyfranscois19@gmail.com"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="icon-github color-icons"
               >
                 <AiFillMail />
               </a>
             </li>
+            */}
+
           </ul>
         </Col>
       </Row>

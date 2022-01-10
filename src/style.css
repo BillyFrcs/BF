@@ -322,20 +322,37 @@ html {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
+  padding-top: 50px !important; /*default 100px*/
+  padding-bottom: 10px !important; /*default 20px*/
+  text-align: center; /*default center*/
+}
+
+.message-text{
   text-align: center;
 }
 
+.btn-components{
+  padding: 0.5rem 2rem !important;
+  font-size: 1.2rem !important;
+  border-radius: 0.5rem !important;
+  background-color: #ad48d4 !important;
+  color: white !important;
+  border: none !important;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  z-index: 1;
+}
+
 .home-about-body {
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: center;
+  text-shadow: #181a27;
 }
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 50px;
   color: white !important;
 }
 
@@ -391,6 +408,34 @@ html {
   padding-left: 15px;
 }
 
+.color-icons{
+  color: #ffffff;
+}
+
+.icon-github:hover {
+  color: #383838;
+  vertical-align: middle !important;
+  transform: translateY(-3px) !important;
+}
+
+.icon-instagram:hover {
+  color: #e3249a;
+  vertical-align: middle !important;
+  transform: translateY(-3px) !important;
+}
+
+.icon-twitter:hover {
+  color: #1da1f2;
+  vertical-align: middle !important;
+  transform: translateY(-3px) !important;
+}
+
+.icon-linkedin:hover {
+  color: #006192;
+  vertical-align: middle !important;
+  transform: translateY(-3px) !important;
+}
+
 .icon-colour {
   color: #700c86 !important;
 }
@@ -404,6 +449,7 @@ html {
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
+
 .footer-copywright {
   text-align: center !important;
 }
@@ -428,6 +474,7 @@ html {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
+
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
@@ -437,6 +484,7 @@ html {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -745,10 +793,11 @@ html {
 }
 
 .fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
+  transform: translateY(-3px) !important;
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
 }

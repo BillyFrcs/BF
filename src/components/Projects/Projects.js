@@ -50,6 +50,7 @@ function Projects()
               link="https://github.com/BillyFrcs/FireworksVFX"
             />
           </Col>
+
           {/*
           <Col md={4} className="project-card snake-boxes">
             <ProjectCard
@@ -79,6 +80,7 @@ function Projects()
             />
           </Col>
           */}
+
         </Row>
       </Container>
     </Container>
