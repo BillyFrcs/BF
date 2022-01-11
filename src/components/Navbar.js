@@ -20,6 +20,7 @@ import
 import { IoGameController } from "react-icons/io5"
 import { FaUser, FaLaptopCode } from "react-icons/fa"
 import { Document } from "react-pdf";
+import { HiDocumentDuplicate } from "react-icons/hi";
 
 function NavBar()
 {
@@ -109,7 +110,7 @@ function NavBar()
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <HiDocumentDuplicate style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -118,6 +119,7 @@ function NavBar()
                 href="https://github.com/BillyFrcs/BillyFrcs.github.io"
                 target="_blank"
                 className="fork-btn-inner"
+                variant="primary"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
