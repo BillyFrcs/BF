@@ -335,12 +335,19 @@ html {
   padding: 0.5rem 2rem !important;
   font-size: 1.2rem !important;
   border-radius: 0.5rem !important;
-  background-color: #ad48d4 !important;
   color: white !important;
-  border: none !important;
+  accent-color: shadow-lg !important;
+  border-color: none !important;
   transition: all 0.3s ease-out 0s;
   position: relative;
   z-index: 1;
+}
+
+.btn-components:hover{
+  background-color: #623686 !important;
+  /*box-shadow: inset -20.5em 0 0 0 #623686 , inset -20.5em 0 0 0 #623686;*/
+  vertical-align: middle !important;
+  transform: translateY(-3px) !important;
 }
 
 .home-about-body {

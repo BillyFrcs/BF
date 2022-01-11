@@ -48,7 +48,7 @@ function Home2()
             <p className="message-text">
               I’m currently looking for any <i><span className="purple">new opportunities,</span></i> My inbox is <br /> always open. Whether you have a question or just want to say hi,<br /> I’ll try <span className="purple">my best</span> to get back to you!
             </p>
-            <Button className="btn-components" href="mailto:billyfranscois19@gmail.com">Say Hi</Button>{' '}
+            <Button variant="primary" className="btn-components" href="mailto:billyfranscois19@gmail.com">Say Hi</Button>
 
             {/*
             <ul className="home-about-social-links">
