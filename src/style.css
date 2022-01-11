@@ -680,6 +680,7 @@ html {
 .resume {
   padding-top: 10px;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 .resume-left {
