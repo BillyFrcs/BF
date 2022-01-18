@@ -15,6 +15,7 @@ function Footer()
 {
   let date = new Date();
   let year = date.getFullYear();
+
   return (
     <Container fluid className="footer">
       <Row>
@@ -48,6 +49,18 @@ function Footer()
             </li>
             <li className="social-icons">
               <a
+                href="https://www.linkedin.com/in/billyfrcs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-linkedin color-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+
+            {/*
+            <li className="social-icons">
+              <a
                 href="https://twitter.com/billyfrcs"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,16 +69,7 @@ function Footer()
                 <AiOutlineTwitter />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/billy-franscois-b4816221a/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="icon-linkedin color-icons"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
+            */}
 
             {/*
             <li className="social-icons">
