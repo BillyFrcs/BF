@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 import snakeboxes from "../../Assets/Games/SnakeBoxes.gif";
 import weadowrise from "../../Assets/Games/WeadowRise.gif"
+import basketbox from "../../Assets/Games/BasketBox.gif";
 
 function Games()
 {
@@ -26,6 +27,16 @@ function Games()
                                    title="Weadow Rise"
                                    description="Weadow Rise is a beautiful 2D Battle Game that you can play as a Reaper Man you can attack all the enemy monsters in the forest."
                                    link="https://billyfrcs.itch.io/weadowrise"
+                              />
+                         </Col>
+
+                         <Col md={4} className="project-card">
+                              <GamesCard
+                                   imgPath={basketbox}
+                                   isBlog={false}
+                                   title="Basket Box"
+                                   description="Basket Box is a 3D Basketball game with Low Poly Graphics and you can play against some bot and get the best high score."
+                                   link="https://billyfrcs.itch.io/basketbox"
                               />
                          </Col>
 
