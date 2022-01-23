@@ -5,8 +5,6 @@ import
   SiVisualstudiocode,
   SiVisualstudio,
   SiUnity,
-  SiUnrealengine,
-  SiGimp,
   SiBlender,
   SiRider,
 } from "react-icons/si";

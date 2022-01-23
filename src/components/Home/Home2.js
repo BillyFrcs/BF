@@ -1,15 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 import { Button } from 'react-bootstrap';
-import
-{
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2()
 {
@@ -32,16 +23,8 @@ function Home2()
               To know more details about me, please go to my <b className="purple">About</b> page.
             </p>
           </Col>
-
-          {/*
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-          */}
-
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Get In <span className="purple">Touch</span></h1>
@@ -49,52 +32,6 @@ function Home2()
               I’m currently looking for any <i><span className="purple">new opportunities,</span></i> My inbox is <br /> always open. Whether you have a question or just want to say hi,<br /> I’ll try <span className="purple">my best</span> to get back to you!
             </p>
             <Button variant="primary" className="btn-components" href="mailto:billyfranscois19@gmail.com">Say Hi</Button>
-
-            {/*
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/BillyFrcs"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/billyfrcs/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/billyfrcs"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/billy-franscois-b4816221a/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-            */}
-
           </Col>
         </Row>
       </Container>

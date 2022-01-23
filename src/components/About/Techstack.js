@@ -1,11 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import
 {
-  DiGit, DiJava,
+  DiGit
 } from "react-icons/di";
-import { SiFirebase, SiCsharp, SiGithub, SiGitlab, SiJava, SiCplusplus, SiDotnet } from "react-icons/si";
+import { SiCsharp, SiGithub, SiJava, SiCplusplus, SiDotnet } from "react-icons/si";
 
 function Techstack()
 {
@@ -29,11 +28,6 @@ function Techstack()
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
       </Col>
-      {/*
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGitlab />
-      </Col>
-      */}
     </Row>
   );
 }

@@ -5,21 +5,14 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/BillyLogo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork, CgFileDocument } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { CgGitFork } from "react-icons/cg";
 import
 {
   AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
   AiFillHome,
-  AiFillProject,
-  AiFillRedditSquare,
 } from "react-icons/ai";
 import { IoGameController } from "react-icons/io5"
 import { FaUser, FaLaptopCode } from "react-icons/fa"
-import { Document } from "react-pdf";
 import { HiDocumentDuplicate } from "react-icons/hi";
 
 function NavBar()

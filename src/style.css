@@ -445,6 +445,12 @@ html {
   transform: translateY(-3px) !important;
 }
 
+.icon-mail:hover {
+  color: #989b9c;
+  vertical-align: middle !important;
+  transform: translateY(-3px) !important;
+}
+
 .icon-colour {
   color: #700c86 !important;
 }

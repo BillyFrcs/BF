@@ -3,13 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import
 {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiFillMail,
-  AiOutlineMail,
-  AiFillGitlab,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaVoicemail } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer()
 {
@@ -57,33 +54,16 @@ function Footer()
                 <FaLinkedinIn />
               </a>
             </li>
-
-            {/*
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/billyfrcs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="icon-twitter color-icons"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            */}
-
-            {/*
             <li className="social-icons">
               <a
                 href="mailto:billyfranscois19@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="icon-github color-icons"
+                className="icon-mail color-icons"
               >
                 <AiFillMail />
               </a>
             </li>
-            */}
-
           </ul>
         </Col>
       </Row>

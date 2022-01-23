@@ -6,9 +6,6 @@ import Particle from "../Particle";
 import runnerman from "../../Assets/Projects/RunnerMan.gif";
 import coronarunner from "../../Assets/Projects/CoronaRunner.gif";
 import fireworks from "../../Assets/Projects/Fireworks.gif";
-import flappybird from "../../Assets/Projects/FlappyBird.gif";
-import reduxadventure from "../../Assets/Projects/ReduxAdventure.gif";
-import snakelol from "../../Assets/Projects/SnakeLol.gif";
 
 function Projects()
 {
@@ -50,37 +47,6 @@ function Projects()
               link="https://github.com/BillyFrcs/FireworksVFX"
             />
           </Col>
-
-          {/*
-          <Col md={4} className="project-card snake-boxes">
-            <ProjectCard
-              imgPath={reduxadventure}
-              isBlog={false}
-              title="Redux Adventure"
-              description="Redux Adventure is a simple 2D platform Game that created from scratch using SFML C++ library no Game Engine."
-              link="https://github.com/BillyFrcs/ReduxAdventure"
-            />
-          </Col>
-          <Col md={4} className="project-card snake-boxes">
-            <ProjectCard
-              imgPath={snakelol}
-              isBlog={false}
-              title="Snake Lol"
-              description="Snake Lol is a simple 2D Snake Game that created from scratch using SFML C++ graphics library."
-              link="https://github.com/BillyFrcs/SnakeLol"
-            />
-          </Col>
-          <Col md={4} className="project-card snake-boxes">
-            <ProjectCard
-              imgPath={flappybird}
-              isBlog={false}
-              title="Flappy Bird"
-              description="Flappy Bird clone created from scratch using SFML C++ graphics library."
-              link="https://github.com/BillyFrcs/FlappyBird"
-            />
-          </Col>
-          */}
-
         </Row>
       </Container>
     </Container>
