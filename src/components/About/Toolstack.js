@@ -19,9 +19,6 @@ function Toolstack()
         <SiUnity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiUnrealengine />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
