@@ -445,6 +445,12 @@ html {
   transform: translateY(-3px) !important;
 }
 
+.icon-itchio:hover {
+  color: #e72a2a;
+  vertical-align: middle !important;
+  transform: translateY(-3px) !important;
+}
+
 .icon-mail:hover {
   color: #989b9c;
   vertical-align: middle !important;
