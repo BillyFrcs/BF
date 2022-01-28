@@ -6,7 +6,7 @@ import
   AiFillInstagram,
   AiFillMail,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaItchIo } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer()
 {
@@ -52,16 +52,6 @@ function Footer()
                 className="icon-linkedin color-icons"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://billyfrcs.itch.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="icon-itchio color-icons"
-              >
-                <FaItchIo />
               </a>
             </li>
             <li className="social-icons">
