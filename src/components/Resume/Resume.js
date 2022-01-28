@@ -5,6 +5,7 @@ import { Container, Row } from "react-bootstrap";
 
 import Particle from "../Particle";
 
+// Use this if i have Resume
 // import pdf from "../../Assets/Resume/.pdf"; // Put pdf path here
 // import { AiOutlineDownload } from "react-icons/ai";
 
@@ -16,7 +17,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function Resume()
 {
-     const [/*width,*/ setWidth] = useState(1200);
+     const [width, setWidth] = useState(1200);
 
      useEffect(() =>
      {
