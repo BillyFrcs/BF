@@ -56,7 +56,7 @@ function Footer()
             </li>
             <li className="social-icons">
               <a
-                href="mailto:billyfranscois19@gmail.com"
+                href="mailto:billykolibonso19@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="icon-mail color-icons"
