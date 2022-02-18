@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import racereternity from "../../Assets/Projects/RacerEternity.gif";
-import runnerman from "../../Assets/Projects/RunnerMan.gif";
 import coronarunner from "../../Assets/Projects/CoronaRunner.gif";
 import fireworks from "../../Assets/Projects/Fireworks.gif";
 
@@ -28,15 +27,6 @@ function Projects()
               title="Racer Eternity"
               description="Racer Eternity is a simple 3D car driving simulator with advanced physics engine & simulation."
               link="https://github.com/BillyFrcs/RacerEternity"
-            />
-          </Col>
-          <Col md={4} className="project-card snake-boxes">
-            <ProjectCard
-              imgPath={runnerman}
-              isBlog={false}
-              title="Runner Man"
-              description="Simple 3D Endless Runner game created using Unreal Engine 4 with C++ and Blueprint Visual Scripting."
-              link="https://github.com/BillyFrcs/RunnerMan"
             />
           </Col>
           <Col md={4} className="project-card snake-boxes">
