@@ -30,7 +30,10 @@ function AboutCard()
               <ImPointRight /> Playing Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Web Development
+              <ImPointRight /> 3D Modeling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Software Development
             </li>
           </ul>
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
