@@ -51,7 +51,7 @@ function Games()
                               />
                          </Col>
 
-                         <Col md={4} className="project-card snake-boxes">
+                         <Col md={4} className="project-card">
                               <GamesCard
                                    imgPath={snakeboxes}
                                    isBlog={false}
