@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import snakeboxes from "../../Assets/Games/SnakeBoxes.gif";
 import weadowrise from "../../Assets/Games/WeadowRise.gif"
 import basketbox from "../../Assets/Games/BasketBox.gif";
+import shooterobstacle from "../../Assets/Games/ShooterObstacle.gif";
 
 function Games()
 {
@@ -37,6 +38,16 @@ function Games()
                                    title="Basket Box"
                                    description="Basket Box is a 3D Basketball game with Low Poly Graphics and you can play against some bot and get the best high score."
                                    link="https://billyfrcs.itch.io/basketbox"
+                              />
+                         </Col>
+
+                         <Col md={4} className="project-card">
+                              <GamesCard
+                                   imgPath={shooterobstacle}
+                                   isBlog={false}
+                                   title="Shooter Obstacle"
+                                   description="Simple 3D Runner Shooter Game that you can run on each platform every time and shoot some enemy that trying to push you up."
+                                   link="https://billyfrcs.itch.io/shooterobstacle"
                               />
                          </Col>
 
