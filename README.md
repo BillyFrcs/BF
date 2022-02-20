@@ -27,6 +27,6 @@ This project was built using these technologies.
 
 3. To deploy the website run: `npm run deploy`
 
-## Thanks!
+## TL;DR
 
 This template website is originally created by this dude [Soumyajit4419](https://github.com/soumyajit4419/)
