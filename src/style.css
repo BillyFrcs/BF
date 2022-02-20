@@ -258,8 +258,8 @@ html {
   background-image: var(--image-gradient), url(./Assets/HomeBackground.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom:45px !important;
+  padding-top: 45px !important;
 }
 
 .home-content {
@@ -269,13 +269,13 @@ html {
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 2.5em !important;
   padding-left: 50px !important;
 }
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 50px !important;
 }
 
 .main-name {
