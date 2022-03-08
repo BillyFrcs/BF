@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import racereternity from "../../Assets/Projects/RacerEternity.gif";
 import coronarunner from "../../Assets/Projects/CoronaRunner.gif";
 import fireworks from "../../Assets/Projects/Fireworks.gif";
+import shooterglow from "../../Assets/Projects/ShooterGlow.gif";
 
 function Projects()
 {
@@ -45,6 +46,15 @@ function Projects()
               title="Fireworks VFX"
               description="Fireworks VFX created using Visual Effect Graph from Unity & High Definition Render Pipeline(HDRP)."
               link="https://github.com/BillyFrcs/FireworksVFX"
+            />
+          </Col>
+          <Col md={4} className="project-card snake-boxes">
+            <ProjectCard
+              imgPath={shooterglow}
+              isBlog={false}
+              title="Shooter Glow"
+              description="Simple 2D top down Shooter Game, Shooter Glow with beautiful color and glowing effect (Post Processing)."
+              link="https://github.com/BillyFrcs/ShooterGlow"
             />
           </Col>
         </Row>
