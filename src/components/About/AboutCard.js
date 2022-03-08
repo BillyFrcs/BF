@@ -34,7 +34,7 @@ function AboutCard()
               <ImPointRight /> 3D Modeling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Software Development
+              <ImPointRight /> App Development
             </li>
           </ul>
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
