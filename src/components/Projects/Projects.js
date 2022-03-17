@@ -5,7 +5,6 @@ import Particle from "../Particle";
 
 import racereternity from "../../Assets/Projects/RacerEternity.gif";
 import coronarunner from "../../Assets/Projects/CoronaRunner.gif";
-import fireworks from "../../Assets/Projects/Fireworks.gif";
 import shooterglow from "../../Assets/Projects/ShooterGlow.gif";
 
 function Projects()
