@@ -24,8 +24,9 @@ function AboutCard()
             And if you want to see my Projects you can go to my Projects section.
             <br />
             <br />
-            Apart from making <span className="purple">Games and Projects,</span> some other activities that I like to do !
+            {/*Apart from making <span className="purple">Games and Projects,</span> some other activities that I like to do !*/}
           </p>
+          {/*
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Video Games
@@ -37,6 +38,7 @@ function AboutCard()
               <ImPointRight /> App Development
             </li>
           </ul>
+          */}
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Doing what you like to make you happy"{" "}
           </p>
