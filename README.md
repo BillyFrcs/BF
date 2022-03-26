@@ -29,4 +29,4 @@ This project was built using these technologies.
 
 ## TL;DR
 
-This template website is originally created by this dude [Soumyajit4419](https://github.com/soumyajit4419/)
+This template website was originally created by this dude [Soumyajit4419](https://github.com/soumyajit4419/)
