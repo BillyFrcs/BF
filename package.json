@@ -1,6 +1,6 @@
 {
-  "homepage": "https://BillyFrcs.github.io",
-  "name": "portfolio",
+  "homepage": "https://BillyFrcs.github.io/bf1",
+  "name": "bf1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
