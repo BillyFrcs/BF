@@ -109,7 +109,7 @@ function NavBar()
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/BillyFrcs/BillyFrcs.github.io"
+                href="https://github.com/BillyFrcs/BF1"
                 target="_blank"
                 className="fork-btn-inner"
                 variant="primary"

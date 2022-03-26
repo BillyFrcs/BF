@@ -5,7 +5,6 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
-/*import aboutImg from "../../Assets/pana.svg";*/
 
 function About()
 {
@@ -32,7 +31,6 @@ function About()
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            {/* <img src={aboutImg} alt="about" className="img-fluid" /> */}
           </Col>
         </Row>
         <h1 className="project-heading">

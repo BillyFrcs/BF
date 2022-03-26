@@ -8,7 +8,7 @@ function Home2()
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col className="home-about-description"> {/*Default md={8} if with avatar*/}
+          <Col className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               Getting <span className="purple"> Started </span>
             </h1>
