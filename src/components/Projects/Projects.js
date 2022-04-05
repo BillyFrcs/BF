@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import racereternity from "../../Assets/Projects/RacerEternity.gif";
-import coronarunner from "../../Assets/Projects/CoronaRunner.gif";
 import shooterglow from "../../Assets/Projects/ShooterGlow.gif";
 
 function Projects()
@@ -27,15 +26,6 @@ function Projects()
               title="Racer Eternity"
               description="Racer Eternity is a 3D car driving simulator with high level Car Controller and implement advanced physics engine & simulation."
               link="https://github.com/BillyFrcs/RacerEternity"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={coronarunner}
-              isBlog={false}
-              title="Corona Runner"
-              description="Corona Runner is a 2D endless runner Game that Player should be able to avoid the Corona Virus when they spawned non-stop."
-              link="https://github.com/BillyFrcs/CoronaRunner"
             />
           </Col>
           <Col md={4} className="project-card">
