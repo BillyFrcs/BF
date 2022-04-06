@@ -46,7 +46,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Billy Franscois
           </Heading>
-          <p>Computer Science Student & Developer Enthusiast</p>
+          <p>Computer Science Student & Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -80,12 +80,16 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Billy is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}.
+          Billy is a Computer Science Student at University.{' '}
+          He&apos;s passionate are about Programming and Development, especially in Game & Web Development.
+          Currently He&apos;s working on a personal project called
+          <NextLink href="/works/inkdrop" scroll={false}>
+            <Link> Bill Guys </Link>
+          </NextLink>
+          in
+          <Link href="https://unity.com/" scroll={false} target="_blank">
+            <Link> Unity Game Engine.</Link>
+          </Link>
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -98,25 +102,27 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Skills
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>Game Development</BioYear>
+          Unity Game Engine and .NET C#
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>Web Development</BioYear>
+          ASP .NET Core and Blazor
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>Programming Language</BioYear>
+          .NET C#, C++ and Java
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>Dev Tools</BioYear>
+          Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub and GitLab
+        </BioSection>
+        <BioSection>
+          <BioYear>Design</BioYear>
+          Blender, GIMP and Figma
         </BioSection>
       </Section>
 
