@@ -26,4 +26,4 @@ $PROJECT_ROOT
 ## 🛠 Installation And Setup
 
 1. Installation `npm install`
-2. Preview the website, run `npm run dev` and open it up the `localhost:3000` in the browser.
+2. Preview the website, run `npm run dev` and open the `localhost:3000` in the browser.
