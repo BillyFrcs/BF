@@ -1,31 +1,29 @@
 <h1 align="center"> Portfolio Website </h1>
 
-My personal portfolio website, which features some of my Github Projects and Games especially my technical skills.<br/>
+My personal portfolio website, which features some of my Github Projects especially my technical skills.<br/>
 
-This project was built using these technologies.
+## Stack
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- Vercel
+- [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
+- [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React.
+- [Three.js](https://threejs.org/) - 3D library for JavaScript.
+- [Framer Motion](https://www.framer.com/motion/) - An animation library for React.
 
-## Features
+## Project Structure
 
-**📖 Multi-Page Layout**
+```
+$PROJECT_ROOT
+│   # Page files
+├── pages
+│   # React component files
+├── components
+│   # Non-react modules
+├── lib
+│   # Static files for images and 3d model file
+└── public
+```
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+## 🛠 Installation And Setup
 
-**📱 Fully Responsive**
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, run: `npm start`
-
-3. To deploy the website run: `npm run deploy`
-
-## TL;DR
-
-This template website was originally created by this dude [Soumyajit4419](https://github.com/soumyajit4419/)
+1. Installation `npm install`
+2. Preview the website, run `npm run dev` and open it up the `localhost:3000` in the browser.
