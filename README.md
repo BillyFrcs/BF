@@ -25,5 +25,5 @@ $PROJECT_ROOT
 
 ## 🛠 Installation And Setup
 
-1. Installation `npm install`
+1. Installation via Node.js with npm `npm install`
 2. Preview the website, run `npm run dev` and open the `localhost:3000` in the browser.
