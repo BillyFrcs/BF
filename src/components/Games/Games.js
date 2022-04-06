@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import GamesCard from "./GamesCard";
 import Particle from "../Particle";
 
-import snakeboxes from "../../Assets/Games/SnakeBoxes.gif";
 import weadowrise from "../../Assets/Games/WeadowRise.gif"
 import basketbox from "../../Assets/Games/BasketBox.gif";
 import shooterobstacle from "../../Assets/Games/ShooterObstacle.gif";
@@ -48,16 +47,6 @@ function Games()
                                    title="Shooter Obstacle"
                                    description="Simple 3D Runner Shooter Game that you can run on each platform every time and shoot some enemy that trying to push you up."
                                    link="https://billyfrcs.itch.io/shooterobstacle"
-                              />
-                         </Col>
-
-                         <Col md={4} className="project-card">
-                              <GamesCard
-                                   imgPath={snakeboxes}
-                                   isBlog={false}
-                                   title="Snake Boxes"
-                                   description="Snake Boxes is a simple 3D Snake Game that Player play as a Snake and try to eat all the random food when spawned."
-                                   link="https://billyfrcs.itch.io/snakeboxes"
                               />
                          </Col>
                     </Row>
