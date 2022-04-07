@@ -17,12 +17,13 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
 import Image from 'next/image'
-import BasketBox from '../public/images/games/BasketBox.png'
-import WeadowRise from '../public/images/games/WeadowRise.png'
+
+// import { GridItem } from '../components/grid-item'
+// import BasketBox from '../public/images/games/basket-box.png'
+// import WeadowRise from '../public/images/games/weadow-rise.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -175,6 +176,7 @@ const Home = () => (
           </ListItem>
         </List>
 
+        {/* 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://billyfrcs.itch.io/basketbox"
@@ -190,7 +192,8 @@ const Home = () => (
           >
             <p>Platformer Game Battle In The Forest</p>
           </GridItem>
-        </SimpleGrid>
+        </SimpleGrid> 
+        */}
 
         <Box align="center" my={4}>
           <NextLink href="/posts" scroll={false}>
