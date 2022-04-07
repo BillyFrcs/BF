@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": "next",
+  "extends": "next/core-web-vitals",
   "rules": {
     "no-unused-vars": [
       "error",
