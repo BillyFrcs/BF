@@ -193,7 +193,8 @@ const Home = () => (
             <p>Platformer Game Battle In The Forest</p>
           </GridItem>
         </SimpleGrid> 
-        */}
+        */
+        }
 
         <Box align="center" my={4}>
           <NextLink href="/posts" scroll={false}>
