@@ -21,8 +21,8 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
 import Image from 'next/image'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import BasketBox from '../public/Assets/Games/BasketBox.png'
+import WeadowRise from '../public/Assets/Games/WeadowRise.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -177,18 +177,18 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
+            href="https://billyfrcs.itch.io/basketbox"
+            title="Basket Box"
+            thumbnail={BasketBox}
           >
-            My YouTube channel
+            <p>3D Low Poly Basket Ball Game.</p>
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
+            href="https://billyfrcs.itch.io/weadowrise"
+            title="Weadow Rise"
+            thumbnail={WeadowRise}
           >
-            A Markdown note-taking app
+            <p>Platformer Game Battle In The Forest</p>
           </GridItem>
         </SimpleGrid>
 
