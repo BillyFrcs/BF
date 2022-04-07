@@ -21,8 +21,8 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
 import Image from 'next/image'
-import BasketBox from '../public/Assets/Games/BasketBox.png'
-import WeadowRise from '../public/Assets/Games/WeadowRise.png'
+import BasketBox from '../public/assets/games/BasketBox.png'
+import WeadowRise from '../public/assets/games/WeadowRise.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -81,12 +81,12 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Billy is a Computer Science Student at University.{' '}
-          He&apos;s passionate are about Programming and Development, especially in Game & Web Development.
+          He&apos;s passionate are about Programming and Development to solve any problem with code, especially in Game & Web Development.
           Currently He&apos;s working on a personal project called
           <NextLink href="/works/inkdrop" scroll={false}>
             <Link> Bill Guys </Link>
           </NextLink>
-          in
+          in the
           <Link href="https://unity.com/" scroll={false} target="_blank">
             <Link> Unity Game Engine.</Link>
           </Link>
