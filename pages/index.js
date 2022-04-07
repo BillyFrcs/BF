@@ -21,8 +21,8 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
 import Image from 'next/image'
-import BasketBox from '../public/assets/games/BasketBox.png'
-import WeadowRise from '../public/assets/games/WeadowRise.png'
+import BasketBox from '../public/images/games/BasketBox.png'
+import WeadowRise from '../public/images/games/WeadowRise.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
