@@ -36,7 +36,7 @@ const Logo = () =>
             fontWeight="bold"
             ml={3}
           >
-            Billy Franscois
+            Billy
           </Text>
         </LogoBox>
       </a>
