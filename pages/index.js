@@ -39,7 +39,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a Computer Science Student!
+        First, solve the problem. Then, write the code!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -66,7 +66,7 @@ const Home = () => (
             overflow='hidden'
           >
             <ProfileImage
-              src="/images/Billy.png"
+              src="/images/profile/Tobias.png"
               alt="Profile image"
               borderRadius='full'
               width="100%"
