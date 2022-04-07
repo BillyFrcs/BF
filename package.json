@@ -7,7 +7,6 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "test": "next test",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
