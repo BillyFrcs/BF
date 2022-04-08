@@ -5,7 +5,7 @@ import
   Link,
   List,
   ListItem,
-  SimpleGrid,
+  // SimpleGrid,
   // UnorderedList,
   Heading,
   Center
