@@ -1,17 +1,19 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid /*, Divider*/ } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import BasketBox from '../public/images/games/BasketBox.png'
-import WeadowRise from '../public/images/games/WeadowRise.png'
-import ShooterObstacle from '../public/images/games/ShooterObstacle.png'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import BasketBox from '../public/images/projects/Games/BasketBox.png'
+import WeadowRise from '../public/images/projects/Games/WeadowRise.png'
+import ShooterObstacle from '../public/images/projects/Games/ShooterObstacle.png'
+import ShooterGlow from '../public/images/projects/Games/ShooterGlow.png'
+import SnakeBoxes from '../public/images/projects/Games/SnakeBoxes.png'
+
+// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+// import thumbStyly from '../public/images/works/styly_eyecatch.png'
+// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+// import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Projects">
@@ -22,40 +24,39 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Basket Box" thumbnail={BasketBox}>
+          <WorkGridItem id="BasketBox" title="Basket Box" thumbnail={BasketBox}>
             3D Low Poly Basket Ball Game.
           </WorkGridItem>
         </Section>
 
         <Section>
-          <WorkGridItem
-            id="walknote"
-            title="Weadow Rise"
-            thumbnail={WeadowRise}>
+          <WorkGridItem id="WeadowRise" title="Weadow Rise" thumbnail={WeadowRise}>
             Lovely 2D Platformer Game
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="Shooter Obstacle"
-            thumbnail={ShooterObstacle}>
+          <WorkGridItem id="ShooterObstacle" title="Shooter Obstacle" thumbnail={ShooterObstacle}>
             3D Endless Runner Shooter Game
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="SnakeBoxes" thumbnail={SnakeBoxes} title="Snake Boxes">
+            Simple 3D Snake Game
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="ShooterGlow" thumbnail={ShooterGlow} title="Shooter Glow">
+            Simple Top Down Shooter Game
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
+      {/* 
       <Section delay={0.2}>
         <Divider my={6} />
-
         <Heading as="h3" fontSize={20} mb={4}>
           Website
         </Heading>
@@ -108,7 +109,9 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-      </SimpleGrid>
+      </SimpleGrid> 
+      */}
+
     </Container>
   </Layout>
 )
