@@ -84,7 +84,7 @@ const Home = () => (
           Billy is a Computer Science Student at University.{' '}
           He&apos;s passionate are about Programming and Development to solve any problem with code, especially in Game & Web Development.
           Currently He&apos;s working on a personal project called
-          <NextLink href="/works/inkdrop" scroll={false}>
+          <NextLink href="/works/BillGuys" scroll={false}>
             <Link> Bill Guys </Link>
           </NextLink>
           Game in the
