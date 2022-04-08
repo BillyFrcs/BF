@@ -30,8 +30,7 @@ const LinkItem = ({ href, path, target, children, ...props }) =>
         bg={active ? 'grassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
         target={target}
-        {...props}
-      >
+        {...props}>
         {children}
       </Link>
     </NextLink>
@@ -82,7 +81,7 @@ const Navbar = props =>
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/BillyFrcs/BF"
             path={path}
             display="inline-flex"
             alignItems="center"

@@ -14,7 +14,7 @@ const Posts = () => (
   <Layout title="Games">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Games
       </Heading>
 
       <Section delay={0.1}>

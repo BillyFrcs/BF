@@ -22,8 +22,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Image from 'next/image'
 
 // import { GridItem } from '../components/grid-item'
-// import BasketBox from '../public/images/games/basket-box.png'
-// import WeadowRise from '../public/images/games/weadow-rise.png'
+// import BasketBox from '../public/images/games/BasketBox/BasketBoxIcon.png'
+// import WeadowRise from '../public/images/games/WeadowRise/WeadowRiseIcon.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -87,7 +87,7 @@ const Home = () => (
           <NextLink href="/works/inkdrop" scroll={false}>
             <Link> Bill Guys </Link>
           </NextLink>
-          in the
+          Game in the
           <Link href="https://unity.com/" scroll={false} target="_blank">
             <Link> Unity Game Engine.</Link>
           </Link>
@@ -95,7 +95,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My Projects
+              Projects
             </Button>
           </NextLink>
         </Box>
@@ -170,14 +170,13 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<FaLinkedinIn />}
               >
-                @billyfrcs
+                Billy Franscois
               </Button>
             </Link>
           </ListItem>
         </List>
 
-        {/* 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://billyfrcs.itch.io/basketbox"
             title="Basket Box"
@@ -192,14 +191,12 @@ const Home = () => (
           >
             <p>Platformer Game Battle In The Forest</p>
           </GridItem>
-        </SimpleGrid> 
-        */
-        }
+        </SimpleGrid> */}
 
         <Box align="center" my={4}>
           <NextLink href="/posts" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My Games
+              Games
             </Button>
           </NextLink>
         </Box>
