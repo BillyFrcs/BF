@@ -13,12 +13,12 @@ const NotFound = () =>
 {
   return (
     <Container>
-      <Heading as="h1">Not found</Heading>
-      <Text>The page you&apos;re looking for was not found.</Text>
+      <Heading as="h1">404 Not Found</Heading>
+      <Text>Aha! You see... You can be wrong.</Text>
       <Divider my={6} />
       <Box my={6} align="center">
         <NextLink href="/">
-          <Button colorScheme="teal">Return to home</Button>
+          <Button colorScheme="teal">Return To Home</Button>
         </NextLink>
       </Box>
     </Container>
