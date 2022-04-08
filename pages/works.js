@@ -3,9 +3,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import BasketBoxThumbnail from '../public/images/games/BasketBox.png'
+import BasketBox from '../public/images/games/BasketBox.png'
 import WeadowRise from '../public/images/games/WeadowRise.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import ShooterObstacle from '../public/images/games/ShooterObstacle.png'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -22,7 +22,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Basket Box" thumbnail={BasketBoxThumbnail}>
+          <WorkGridItem id="inkdrop" title="Basket Box" thumbnail={BasketBox}>
             3D Low Poly Basket Ball Game.
           </WorkGridItem>
         </Section>
@@ -39,10 +39,9 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}>
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            title="Shooter Obstacle"
+            thumbnail={ShooterObstacle}>
+            3D Endless Runner Shooter Game
           </WorkGridItem>
         </Section>
 

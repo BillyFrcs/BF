@@ -13,7 +13,7 @@ import
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
-import P from '../../components/paragraph'
+import Paragraph from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="Weadow Rise">
@@ -21,12 +21,12 @@ const Work = () => (
       <Title>
         Weadow Rise <Badge>2021</Badge>
       </Title>
-      <P>
+      <Paragraph>
         Weadow Rise is a beautiful 2D Battle Game that you can play as a Reaper Man you can attack all the enemy monsters in the forest,
         the main GamePlay in this game is Player should be carefully when enemies spawn and trying to kill Reaper Man so you should kill all the enemies when spawner and get the best high score,
         and when you kill the enemy there are some collectable items that you can collect like Health & Energy. The last thing that you should be careful is the boom is explode when enemy die,
         so be careful & enjoy your game.
-      </P>
+      </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
