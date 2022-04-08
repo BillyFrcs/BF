@@ -19,8 +19,8 @@ const Main = ({ children, router }) =>
         <meta name="description" content="Billy's Homepage" />
         <meta name="author" content="Billy Franscois" />
         <meta name="author" content="BillyFrcs" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="Doggy.png" />
+        <link rel="shortcut icon" href="/Doggy.png" type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@billyfrcs" />
         <meta name="twitter:creator" content="@billyfrcs" />
