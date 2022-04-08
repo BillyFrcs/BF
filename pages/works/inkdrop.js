@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, Heading, Center } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import Paragraph from '../../components/paragraph'
@@ -17,7 +17,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Download</Meta>
-          <Link href="https://billyfrcs.itch.io/basketbox " target="_blank">
+          <Link href="https://billyfrcs.itch.io/basketbox" target="_blank">
             Basket Box <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -40,10 +40,14 @@ const Work = () => (
 
       </List>
 
-      <WorkImage src="/gif/BasketBox.gif" alt="BasketBox.gif" />
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>Gameplay</Center>
+      </Heading>
 
-      {/* <WorkImage src=" " alt="BasketBox.png" />
-      <WorkImage src=" " alt="BasketBox.png" />  */}
+      <WorkImage src="/gif/BasketBox.gif" alt="BasketBox" />
+
+      {/* <WorkImage src=" " alt="BasketBox" />
+      <WorkImage src=" " alt="BasketBox" />  */}
 
     </Container>
   </Layout>

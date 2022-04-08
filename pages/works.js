@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import BasketBoxThumbnail from '../public/images/games/BasketBox.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import WeadowRise from '../public/images/games/WeadowRise.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
@@ -30,9 +30,9 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}>
-            Music recommendation app for iOS
+            title="Weadow Rise"
+            thumbnail={WeadowRise}>
+            Lovely 2D Platformer Game
           </WorkGridItem>
         </Section>
 

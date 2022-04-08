@@ -6,7 +6,7 @@ import
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
+  // UnorderedList,
   Heading,
   Center
 } from '@chakra-ui/react'
@@ -16,84 +16,88 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="walknote">
+  <Layout title="Weadow Rise">
     <Container>
       <Title>
-        walknote <Badge>2011-2016</Badge>
+        Weadow Rise <Badge>2021</Badge>
       </Title>
       <P>
-        walknote recommends new music you may like based on your music
-        preferences by recognizing your favorite songs stored in your device.
-        You can listen to recommended music just like a radio!
-      </P>
-      <P>
-        This service has been closed. Thank you for over 130,000 registered
-        users!
+        Weadow Rise is a beautiful 2D Battle Game that you can play as a Reaper Man you can attack all the enemy monsters in the forest,
+        the main GamePlay in this game is Player should be carefully when enemies spawn and trying to kill Reaper Man so you should kill all the enemies when spawner and get the best high score,
+        and when you kill the enemy there are some collectable items that you can collect like Health & Energy. The last thing that you should be careful is the boom is explode when enemy die,
+        so be careful & enjoy your game.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>iOS</span>
+          <span>Windows</span>
         </ListItem>
+
         <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://archive.craftz.dog/blog.odoruinu.net/2016/09/06/farewell-from-walknote/">
-            音楽発掘アプリwalknoteクローズのお知らせ{' '}
-            <ExternalLinkIcon mx="2px" />
+          <Meta>Download</Meta>
+          <Link href="https://billyfrcs.itch.io/weadowrise" target="_blank">
+            Weadow Rise <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
+
+        {/* <ListItem>
+          <Meta>Header</Meta>
+          <Link href=" ">
+            Test{' '}
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem> */}
+
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>Objective-C, PHP, MongoDB</span>
+          <Meta>Engine</Meta>
+          <span>Unity Game Engine</span>
         </ListItem>
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Gameplay</Center>
       </Heading>
 
-      <UnorderedList my={4}>
+      {/* <UnorderedList my={4}>
         <ListItem>
-          <Link href="http://renewal49.hateblo.jp/entry/20120710/1341925681">
-            <Badge mr={2}>リニューアル式</Badge>
-            強力すぎて紹介しそびれていた音楽好きのための神アプリ『walknote』
+          <Link href=" ">
+            <Badge mr={2}>Badge</Badge>
+            Test
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
 
         <ListItem>
-          <Link href="http://www.appbank.net/2011/10/15/iphone-application/309349.php">
-            <Badge mr={2}>appbank</Badge>
-            walknote:
-            CD屋の試聴機が、自分向けになって手元に到着。そんな曲探しアプリ。無料。
+          <Link href="">
+            <Badge mr={2}>Badge</Badge>
+            Test
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
 
         <ListItem>
-          <Link href="http://www.danshihack.com/2012/07/18/junp/iphoneapp-walknote.html">
-            <Badge mr={2}>男子ハック</Badge>
-            [おすすめの音楽をレコメンド！ストリーミング再生してくれるiPhoneアプリ「walknote」が素敵。
+          <Link href=" ">
+            <Badge mr={2}>Badge</Badge>
+          Test
           </Link>
           <ExternalLinkIcon mx="2px" />
         </ListItem>
 
         <ListItem>
-          <Badge mr={2}>タブロイド</Badge>
-          <Link href="http://www.tabroid.jp/app/multimedia/2013/05/app.walknote.html">
-            「YOU、これ聴いちゃいなよ」自分好みの曲が勝手に集まる音楽プレーヤー『walknote』
+          <Badge mr={2}> </Badge>
+          <Link href=" ">
+            Test
           </Link>
           <ExternalLinkIcon mx="2px" />
         </ListItem>
-      </UnorderedList>
+      </UnorderedList> */}
 
-      <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/walknote_01.png" alt="walknote" />
-        <WorkImage src="/images/works/walknote_02.png" alt="walknote" />
-      </SimpleGrid>
-      <WorkImage src="/images/works/walknote_03.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
+      {/* <SimpleGrid columns={2} gap={2}>
+        <WorkImage src=" " alt="Weadow Rise" />
+        <WorkImage src=" " alt="Weadow Rise" />
+      </SimpleGrid> */}
+
+      <WorkImage src="/gif/WeadowRise.gif" alt="Weadow Rise" />
     </Container>
   </Layout>
 )
