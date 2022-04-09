@@ -34,7 +34,9 @@ const Project = () => (
 
                     <ListItem>
                          <Meta>Engine</Meta>
-                         <span>Unity Game Engine</span>
+                         <Link href="https://unity.com/" target="_blank">
+                              Unity<ExternalLinkIcon mx="2px" />
+                         </Link>
                     </ListItem>
 
                     <ListItem>

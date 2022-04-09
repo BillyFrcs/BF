@@ -22,8 +22,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Image from 'next/image'
 
 // import { GridItem } from '../components/grid-item'
-// import BasketBox from '../public/images/games/BasketBox/BasketBoxIcon.png'
-// import WeadowRise from '../public/images/games/WeadowRise/WeadowRiseIcon.png'
+// import BasketBox from '../public/images/Games/BasketBoxIcon.png'
+// import WeadowRise from '../public/images/Games/WeadowRiseIcon.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -81,7 +81,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Billy is a Computer Science Student at University.{' '}
-          He&apos;s passionate are about Programming and Development to solve any problem with code,
+          He&apos;s passionate are about Programming and Development to solve any problem and solution with code,
           especially in Game and Web Development.
           Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
@@ -127,14 +127,14 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
+      {/* <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
           Playing Video Games and Artificial Intelligence.
         </Paragraph>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -146,8 +146,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
+                leftIcon={<IoLogoGithub />}>
                 @BillyFrcs
               </Button>
             </Link>
@@ -157,8 +156,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
+                leftIcon={<IoLogoInstagram />}>
                 @billyfrcs
               </Button>
             </Link>
@@ -168,8 +166,7 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<FaLinkedinIn />}
-              >
+                leftIcon={<FaLinkedinIn />}>
                 Billy Franscois
               </Button>
             </Link>
@@ -180,15 +177,13 @@ const Home = () => (
           <GridItem
             href="https://billyfrcs.itch.io/basketbox"
             title="Basket Box"
-            thumbnail={BasketBox}
-          >
+            thumbnail={BasketBox}>
             <p>3D Low Poly Basket Ball Game.</p>
           </GridItem>
           <GridItem
             href="https://billyfrcs.itch.io/weadowrise"
             title="Weadow Rise"
-            thumbnail={WeadowRise}
-          >
+            thumbnail={WeadowRise}>
             <p>Platformer Game Battle In The Forest</p>
           </GridItem>
         </SimpleGrid> */}
