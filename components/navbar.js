@@ -73,10 +73,10 @@ const Navbar = props =>
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="/Projects" path={path}>
             Projects
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="/Games" path={path}>
             Games
           </LinkItem>
           <LinkItem
@@ -102,23 +102,21 @@ const Navbar = props =>
                 as={IconButton}
                 icon={<HamburgerIcon />}
                 variant="outline"
-                aria-label="Options"
-              />
+                aria-label="Options" />
               <MenuList>
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                <NextLink href="/Projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <NextLink href="/Games" passHref>
                   <MenuItem as={Link}>Games</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
                   href="https://github.com/BillyFrcs/BF"
-                  target="_blank"
-                >
+                  target="_blank">
                   View Source
                 </MenuItem>
               </MenuList>

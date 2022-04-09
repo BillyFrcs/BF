@@ -37,8 +37,7 @@ const Home = () => (
         mb={6}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}>
         First, solve the problem. Then, write the code!
       </Box>
 
@@ -82,9 +81,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Billy is a Computer Science Student at University.{' '}
-          He&apos;s passionate are about Programming and Development to solve any problem with code, especially in Game & Web Development.
+          He&apos;s passionate are about Programming and Development to solve any problem with code,
+          especially in Game and Web Development.
           Currently He&apos;s working on a personal project called
-          <NextLink href="/works/BillGuys" scroll={false}>
+          <NextLink href="/Projects/BillGuys" scroll={false}>
             <Link> Bill Guys </Link>
           </NextLink>
           Game in the
@@ -93,7 +93,7 @@ const Home = () => (
           </Link>
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
+          <NextLink href="/Projects" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Projects
             </Button>
@@ -111,7 +111,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Web Development</BioYear>
-          ASP .NET Core and Blazor
+          ASP .NET Core, Blazor and SQL Server
         </BioSection>
         <BioSection>
           <BioYear>Programming Language</BioYear>
@@ -194,7 +194,7 @@ const Home = () => (
         </SimpleGrid> */}
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" scroll={false}>
+          <NextLink href="/Games" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Games
             </Button>
