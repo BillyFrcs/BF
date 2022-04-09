@@ -103,7 +103,7 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Skills
+          Skill Set
         </Heading>
         <BioSection>
           <BioYear>Game Development</BioYear>
@@ -114,7 +114,7 @@ const Home = () => (
           ASP .NET Core, Blazor and SQL Server
         </BioSection>
         <BioSection>
-          <BioYear>Programming Language</BioYear>
+          <BioYear>Programming Languages</BioYear>
           .NET C#, C++ and Java
         </BioSection>
         <BioSection>
@@ -132,7 +132,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Playing Video Games, Game Development, Web Development,{' '} Artificial Intelligence.
+          Playing Video Games and Artificial Intelligence.
         </Paragraph>
       </Section>
 
