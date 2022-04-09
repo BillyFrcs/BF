@@ -46,7 +46,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Billy Franscois
           </Heading>
-          <p>Computer Science Student & Developer</p>
+          <p>Computer Science Student</p>
         </Box>
         <Box
           flexShrink={0}
@@ -107,7 +107,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Game Development</BioYear>
-          Unity Game Engine and .NET C#
+          Unity Engine and .NET C#
         </BioSection>
         <BioSection>
           <BioYear>Web Development</BioYear>
