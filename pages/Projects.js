@@ -73,16 +73,16 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
+            id=" "
             thumbnail={BasketBox}
-            title="Basket Box">
-            Test
+            title="Title">
+            Text
           </WorkGridItem>
         </Section>
 
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={WeadowRise} title="WeadowRise">
-            Test
+          <WorkGridItem id=" " thumbnail={WeadowRise} title="Title">
+            Text
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -96,23 +96,23 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={ShooterObstacle} title="Shooter Obstacle">
-            Test
+          <WorkGridItem id=" " thumbnail={BasketBox} title="Title">
+            Text
           </WorkGridItem>
         </Section>
 
         <Section delay={0.5}>
           <WorkGridItem
-            id="freedbtagger"
-            thumbnail={ShooterGlow}
-            title="Shooter Glow">
-            Test
+            id=" "
+            thumbnail={WeadowRise}
+            title="Title">
+            Text
           </WorkGridItem>
         </Section>
 
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={BillGuys} title="Bill Guys">
-            Test
+          <WorkGridItem id=" " thumbnail={BillGuys} title="Title">
+            Text
           </WorkGridItem>
         </Section>
       </SimpleGrid> 

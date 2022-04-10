@@ -115,7 +115,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Programming Languages</BioYear>
-          .NET C#, C++ and Java
+          .NET C#, C++, Java and VB .NET
         </BioSection>
         <BioSection>
           <BioYear>Dev Tools</BioYear>
