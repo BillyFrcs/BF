@@ -12,7 +12,7 @@ const Project = () => (
                </Title>
 
                <Paragraph>
-                    Massively Multiplayer Party Game, Bill Guys Ultimate Knockout is a Game that inspired by <Link href="https://www.fallguys.com/" target="_blank">Fall Guys</Link> Game.
+                    Massively Multiplayer Party Game, Bill Guys Ultimate Knockout is a Obstacle Course Game that inspired by <Link href="https://www.fallguys.com/" target="_blank">Fall Guys</Link> Game.
                     Currently the Game is still in Development.
                </Paragraph>
                <Paragraph>
