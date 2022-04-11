@@ -1,7 +1,8 @@
-import { Container, Heading, SimpleGrid /*, Divider*/ } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
+import Paragraph from '../components/paragraph'
 
 import BasketBox from '../public/images/projects/Games/BasketBox.png'
 import WeadowRise from '../public/images/projects/Games/WeadowRise.png'
@@ -21,7 +22,7 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="BasketBox" title="Basket Box" thumbnail={BasketBox}>
-            3D Low Poly Basket Ball Game.
+            3D Low Poly Basketball Game
           </WorkGridItem>
         </Section>
 
@@ -44,8 +45,8 @@ const Projects = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="BillGuys" thumbnail={BillGuys} title="Bill Guys">
-            Massively Obstacle Course Game
+          <WorkGridItem id="RacerEternity" thumbnail={RacerEternity} title="Racer Eternity">
+            Racing Car Simulator Game
           </WorkGridItem>
         </Section>
 
@@ -56,20 +57,21 @@ const Projects = () => (
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="RacerEternity" thumbnail={RacerEternity} title="Racer Eternity">
-            Racing Car Simulator Game
+          <WorkGridItem id="BillGuys" thumbnail={BillGuys} title="Bill Guys">
+            Massively Obstacle Course Game
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-      {/* 
       <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={4}>
           Website
         </Heading>
+        <Paragraph>It will be available soon😃</Paragraph>
       </Section>
 
+      {/* 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
