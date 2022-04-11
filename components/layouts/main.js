@@ -19,7 +19,7 @@ const Main = ({ children, router }) =>
         <meta name="description" content="Billy's Homepage" />
         <meta name="author" content="Billy Franscois" />
         <meta name="author" content="BillyFrcs" />
-        <link rel="BF" href="BF.png" />
+        <link rel="BF" href="/BF.png" />
         <link rel="shortcut icon" href="/BF.png" type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@billyfrcs" />
@@ -28,6 +28,7 @@ const Main = ({ children, router }) =>
         <meta property="og:site_name" content="Billy Franscois's Homepage" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
+
         <title>Home | BillyFrcs</title>
       </Head>
 

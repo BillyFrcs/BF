@@ -49,16 +49,14 @@ const Navbar = props =>
       bg={useColorModeValue('#ffffff40', '#20202380')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
-      {...props}
-    >
+      {...props}>
       <Container
         display="flex"
         p={2}
         maxW="container.md"
         wrap="wrap"
         align="center"
-        justify="space-between"
-      >
+        justify="space-between">
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
             <Logo />
@@ -71,8 +69,7 @@ const Navbar = props =>
           width={{ base: 'full', md: 'auto' }}
           alignItems="center"
           flexGrow={1}
-          mt={{ base: 4, md: 0 }}
-        >
+          mt={{ base: 4, md: 0 }}>
           <LinkItem href="/Projects" path={path}>
             Projects
           </LinkItem>
@@ -86,8 +83,7 @@ const Navbar = props =>
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
-            pl={2}
-          >
+            pl={2}>
             <IoLogoGithub />
             Source
           </LinkItem>

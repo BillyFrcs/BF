@@ -89,7 +89,7 @@ const Home = () => (
           </NextLink>
           Game in the
           <Link href="https://unity.com/" scroll={false} target="_blank">
-            <Link> Unity Game Engine.</Link>
+            <Link> Unity Engine.</Link>
           </Link>
         </Paragraph>
         <Box align="center" my={4}>
@@ -119,11 +119,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Dev Tools</BioYear>
-          Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub and GitLab
+          Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub, GitLab and Azure DevOps
         </BioSection>
         <BioSection>
           <BioYear>Design</BioYear>
-          Blender, GIMP and Figma
+          GIMP and Figma
         </BioSection>
       </Section>
 
