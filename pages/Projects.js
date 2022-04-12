@@ -2,7 +2,8 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import Paragraph from '../components/paragraph'
+
+// import Paragraph from '../components/paragraph'
 
 import BasketBox from '../public/images/projects/Games/BasketBox.png'
 import WeadowRise from '../public/images/projects/Games/WeadowRise.png'
@@ -63,15 +64,13 @@ const Projects = () => (
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={4}>
           Website
         </Heading>
         <Paragraph>It will be available soon😃</Paragraph>
       </Section>
-
-      {/* 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
@@ -117,8 +116,7 @@ const Projects = () => (
             Text
           </WorkGridItem>
         </Section>
-      </SimpleGrid> 
-      */}
+      </SimpleGrid> */}
 
     </Container>
   </Layout>
