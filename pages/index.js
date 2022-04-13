@@ -111,19 +111,23 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Web Development</BioYear>
-          ASP .NET Core, Blazor and SQL Server
+          ASP .NET Core, Blazor and React JS
         </BioSection>
         <BioSection>
           <BioYear>Programming Languages</BioYear>
-          .NET C#, C++, Java and VB .NET
+          .NET C#, C++, Java and Javascript
         </BioSection>
         <BioSection>
           <BioYear>Dev Tools</BioYear>
           Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub, GitLab and Azure DevOps
         </BioSection>
         <BioSection>
-          <BioYear>Design</BioYear>
+          <BioYear>Design Tools</BioYear>
           GIMP and Figma
+        </BioSection>
+        <BioSection>
+          <BioYear>Database</BioYear>
+          SQL Server and MYSQL
         </BioSection>
       </Section>
 
