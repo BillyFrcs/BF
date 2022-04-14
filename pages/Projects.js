@@ -22,14 +22,14 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="BasketBox" title="Basket Box" thumbnail={BasketBox}>
-            3D Low Poly Basketball Game
+          <WorkGridItem id="WeadowRise" title="Weadow Rise" thumbnail={WeadowRise}>
+            Lovely 2D Platformer Game
           </WorkGridItem>
         </Section>
 
         <Section>
-          <WorkGridItem id="WeadowRise" title="Weadow Rise" thumbnail={WeadowRise}>
-            Lovely 2D Platformer Game
+          <WorkGridItem id="BasketBox" title="Basket Box" thumbnail={BasketBox}>
+            3D Low Poly Basketball Game
           </WorkGridItem>
         </Section>
 

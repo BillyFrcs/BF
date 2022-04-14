@@ -107,15 +107,15 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Game Development</BioYear>
-          Unity Engine and .NET C#
+          Unity Game Engine (PC, Mobile and WebGL)
         </BioSection>
         <BioSection>
           <BioYear>Web Development</BioYear>
-          ASP .NET Core, Blazor and React JS
+          HTML, CSS, Javascript, ASP .NET Core and React JS
         </BioSection>
         <BioSection>
           <BioYear>Programming Languages</BioYear>
-          .NET C#, C++, Java and Javascript
+          .NET C#, C/C++ and Java
         </BioSection>
         <BioSection>
           <BioYear>Dev Tools</BioYear>
@@ -124,10 +124,6 @@ const Home = () => (
         <BioSection>
           <BioYear>Design Tools</BioYear>
           GIMP and Figma
-        </BioSection>
-        <BioSection>
-          <BioYear>Database</BioYear>
-          SQL Server and MYSQL
         </BioSection>
       </Section>
 
