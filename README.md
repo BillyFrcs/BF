@@ -28,5 +28,3 @@ $PROJECT_ROOT
 1. Installation via Node.js with npm package `npm install`
 2. Install Next.js with `npm install next`
 3. Preview the website, run `npm run dev` and open the `localhost:3000` in the browser.
-
-> Note: This project is still under development!
