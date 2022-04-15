@@ -83,14 +83,16 @@ const Home = () => (
           Billy is a Computer Science Student at University.{' '}
           He&apos;s passionate are about Programming and Development to solve any problem and solution with code,
           especially in Game and Web Development.
-          Currently He&apos;s working on a personal project called
+
+          {/* Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
             <Link> Bill Guys </Link>
           </NextLink>
           Game in the
           <Link href="https://unity.com/" scroll={false} target="_blank">
             <Link> Unity Engine.</Link>
-          </Link>
+          </Link> */}
+
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/Projects" scroll={false}>
@@ -111,7 +113,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Web Development</BioYear>
-          HTML, CSS, Javascript, ASP .NET Core and React JS
+          HTML, CSS, Javascript (NodeJs), ASP .NET Core and React JS
         </BioSection>
         <BioSection>
           <BioYear>Programming Languages</BioYear>
@@ -123,18 +125,18 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Design Tools</BioYear>
-          GIMP and Figma
+          GIMP, Figma and Blender
         </BioSection>
       </Section>
 
-      {/* <Section delay={0.3}>
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-          Playing Video Games and Artificial Intelligence.
+          Playing Video Games 🎮
         </Paragraph>
-      </Section> */}
+      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
