@@ -29,6 +29,8 @@ const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
+const Profile = "/images/profile/Billy.png";
+
 const Home = () => (
   <Layout>
     <Container>
@@ -65,7 +67,7 @@ const Home = () => (
             overflow='hidden'
           >
             <ProfileImage
-              src="/images/profile/BillyBlue.png"
+              src={Profile}
               alt="Profile image"
               borderRadius='full'
               width="100%"
@@ -131,7 +133,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          I &hearts;
         </Heading>
         <Paragraph>
           Playing Video Games 🎮
