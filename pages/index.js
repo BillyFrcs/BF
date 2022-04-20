@@ -115,7 +115,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Web Development</BioYear>
-          HTML, CSS, Javascript (NodeJs), ASP .NET Core and React JS
+          HTML, CSS, Javascript, ASP.NET Core, NodeJS and ReactJS
         </BioSection>
         <BioSection>
           <BioYear>Programming Languages</BioYear>
@@ -127,7 +127,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Design Tools</BioYear>
-          GIMP, Figma and Blender
+          Figma and GIMP
         </BioSection>
       </Section>
 
