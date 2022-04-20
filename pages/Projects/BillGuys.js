@@ -13,7 +13,7 @@ const Project = () => (
 
                <Paragraph>
                     Massively Multiplayer Party Game, Bill Guys Ultimate Knockout is a Obstacle Course Game that inspired by <Link href="https://www.fallguys.com/" target="_blank">Fall Guys</Link> Game.
-                    Currently the Game is still in Development.
+                    Currently the Game is just a Prototype.
                </Paragraph>
                <Paragraph>
                     The project is using the Unity Universal Render Pipeline template to create high quality graphics and lightly Games.
@@ -21,7 +21,7 @@ const Project = () => (
 
                <List ml={4} my={4}>
                     <ListItem>
-                         <Meta>Download</Meta>
+                         <Meta>View</Meta>
                          <Link href=" ">
                               Bill Guys (Coming soon) <ExternalLinkIcon mx="2px" />
                          </Link>
@@ -41,7 +41,7 @@ const Project = () => (
 
                     <ListItem>
                          <Meta>Status Game</Meta>
-                         <span>Development</span>
+                         <span>Prototype</span>
                     </ListItem>
                </List>
 

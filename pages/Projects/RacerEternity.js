@@ -13,6 +13,7 @@ const Project = () => (
 
                <Paragraph>
                     Racer Eternity is a prototype 3D Racing Car Simulator Game, that use advanced car controller implementation with physics engine and simulation.
+                    Currently the Game is just a Prototype.
                </Paragraph>
                <Paragraph>
                     The project is using the Unity Universal Render Pipeline template to create high quality graphics and lightly Games.

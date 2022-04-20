@@ -24,8 +24,8 @@ const Project = () => (
         Shooter Glow <Badge>2022</Badge>
       </Title>
       <Paragraph>
-        Simple 2D top down Shooter Game, Shooter Glow with beautiful
-        color and glowing effect to improve Gameplay experience.
+        Simple 2D top down Shooter Game, Shooter Glow with beautiful color and glowing effect to improve Gameplay experience.
+        Currently the Game is just a Prototype.
       </Paragraph>
       <Paragraph>
         This project is using the Unity Universal Render Pipeline(URP) to create high quality graphics and lightly Games.
