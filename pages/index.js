@@ -14,7 +14,7 @@ import
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import { SkillSection, SkillSet } from '../components/skill'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
@@ -109,26 +109,26 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Skill Set
         </Heading>
-        <BioSection>
-          <BioYear>Game Development</BioYear>
+        <SkillSection>
+          <SkillSet>Game Development</SkillSet>
           Unity Game Engine (PC, Mobile and WebGL)
-        </BioSection>
-        <BioSection>
-          <BioYear>Web Development</BioYear>
-          HTML, CSS, Javascript, ASP.NET Core, NodeJS and ReactJS
-        </BioSection>
-        <BioSection>
-          <BioYear>Programming Languages</BioYear>
-          .NET C#, C/C++ and Java
-        </BioSection>
-        <BioSection>
-          <BioYear>Dev Tools</BioYear>
+        </SkillSection>
+        <SkillSection>
+          <SkillSet>Web Development</SkillSet>
+          ASP.NET Core, NodeJS and ReactJS
+        </SkillSection>
+        <SkillSection>
+          <SkillSet>Programming Languages</SkillSet>
+          .NET C#, C/C++, Java and Javascript
+        </SkillSection>
+        <SkillSection>
+          <SkillSet>Dev Tools</SkillSet>
           Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub, GitLab and Azure DevOps
-        </BioSection>
-        <BioSection>
-          <BioYear>Design Tools</BioYear>
+        </SkillSection>
+        <SkillSection>
+          <SkillSet>Design Tools</SkillSet>
           Figma and GIMP
-        </BioSection>
+        </SkillSection>
       </Section>
 
       <Section delay={0.3}>
