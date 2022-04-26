@@ -8,7 +8,7 @@ import WeadowRise from '../public/images/games/WeadowRiseIcon.png'
 import ShooterObstacle from '../public/images/games/ShooterObstacleIcon.png'
 import SnakeBoxes from '../public/images/games/SnakeBoxesIcon.png'
 
-const Posts = () => (
+const Games = () => (
   <Layout title="Games">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -48,5 +48,5 @@ const Posts = () => (
   </Layout>
 )
 
-export default Posts
+export default Games
 export { getServerSideProps } from '../components/chakra'
