@@ -76,6 +76,9 @@ const Navbar = props =>
           <LinkItem href="/Games" path={path}>
             Games
           </LinkItem>
+          <LinkItem href="/Contact" path={path}>
+            Contact
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/BillyFrcs/BF"
@@ -108,6 +111,9 @@ const Navbar = props =>
                 </NextLink>
                 <NextLink href="/Games" passHref>
                   <MenuItem as={Link}>Games</MenuItem>
+                </NextLink>
+                <NextLink href="/Contact" passHref>
+                  <MenuItem as={Link}>Contact</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
