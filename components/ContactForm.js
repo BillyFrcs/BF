@@ -29,7 +29,7 @@ export const ContactForm = () =>
 
      return (
           <form ref={referenceForm} onSubmit={SendEmail}>
-               <FormControl>
+               <FormControl isRequired={true}>
                     <Stack spacing={3}>
                          <Flex height="50vh" alignItems="center" justifyContent="center" mb={12} mt={18}>
                               <Flex direction="column" p={12} rounded={6}>

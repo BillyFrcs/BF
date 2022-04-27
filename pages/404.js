@@ -6,16 +6,21 @@ import
   Text,
   Container,
   Divider,
-  Button
+  Button,
+  Stack
 } from '@chakra-ui/react'
 
 const NotFound = () =>
 {
   return (
     <Container>
-      <Heading as="h1">404 Not Found</Heading>
-      <Text>Aha! You see... You can be wrong.</Text>
+      <Stack align="center">
+        <Heading as="h1">404 Not Found</Heading>
+        <Text>Aha! You see... You can be wrong.</Text>
+      </Stack>
+
       <Divider my={6} />
+
       <Box my={6} align="center">
         <NextLink href="/">
           <Button colorScheme="teal">Return To Home</Button>

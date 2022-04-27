@@ -82,8 +82,8 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Billy is a Computer Science Student at University.{' '}
-          He&apos;s passionate are about Programming and Development to solve any problem and solution with code,
+          Hello! I&apos;m Billy and I&apos;m a Computer Science Student at University.{' '}
+          My passionate are about Programming and Development to solve any problem and solution with code,
           especially in Game and Web Development.
 
           {/* Currently He&apos;s working on a personal project called
