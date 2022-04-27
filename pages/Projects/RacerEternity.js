@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem, Heading, Center } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/Project'
+import { Title, ProjectImage, Meta } from '../../components/Project'
 import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -49,7 +49,7 @@ const Project = () => (
                     <Center>Gameplay</Center>
                </Heading>
 
-               <WorkImage src="/gif/RacerEternity.gif" alt="Racer Eternity" />
+               <ProjectImage src="/gif/RacerEternity.gif" alt="Racer Eternity" />
 
           </Container>
      </Layout>

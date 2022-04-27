@@ -11,7 +11,7 @@ import
   Center
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/Project'
+import { Title, ProjectImage, Meta } from '../../components/Project'
 import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -85,7 +85,7 @@ const Project = () => (
         />
       </Box> */}
 
-      <WorkImage src="/gif/ShooterObstacle.gif" alt="Shooter Obstacle" />
+      <ProjectImage src="/gif/ShooterObstacle.gif" alt="Shooter Obstacle" />
     </Container>
   </Layout>
 )

@@ -14,7 +14,7 @@ import
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/Project'
+import { Title, ProjectImage, Meta } from '../../components/Project'
 import Paragraph from '../../components/paragraph'
 
 const Project = () => (
@@ -58,7 +58,7 @@ const Project = () => (
                     <Center>Gameplay</Center>
                </Heading>
 
-               <WorkImage src="/gif/SnakeBoxes.gif" alt="Shooter Glow" />
+               <ProjectImage src="/gif/SnakeBoxes.gif" alt="Shooter Glow" />
 
           </Container>
      </Layout>

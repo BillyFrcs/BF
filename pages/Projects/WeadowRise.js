@@ -12,7 +12,7 @@ import
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/Project'
+import { Title, ProjectImage, Meta } from '../../components/Project'
 import Paragraph from '../../components/paragraph'
 
 const Project = () => (
@@ -101,11 +101,11 @@ const Project = () => (
       </UnorderedList> */}
 
       {/* <SimpleGrid columns={2} gap={2}>
-        <WorkImage src=" " alt="Weadow Rise" />
-        <WorkImage src=" " alt="Weadow Rise" />
+        <ProjectImage src=" " alt="Weadow Rise" />
+        <ProjectImage src=" " alt="Weadow Rise" />
       </SimpleGrid> */}
 
-      <WorkImage src="/gif/WeadowRise.gif" alt="Weadow Rise" />
+      <ProjectImage src="/gif/WeadowRise.gif" alt="Weadow Rise" />
     </Container>
   </Layout>
 )
