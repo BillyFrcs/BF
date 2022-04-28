@@ -8,27 +8,34 @@ export const ContactForm = () =>
 {
      const referenceForm = useRef();
 
-     const SendEmail = (email) =>
+     const SendEmail = (event) =>
      {
-          email.preventDefault();
+          event.preventDefault();
 
           const serviceID = 'service_gmail';
           const templateID = 'template_contact-form';
           const userID = '5R4L4mkrB0Ah5cIKl';
 
-          EmailJs.sendForm(serviceID, templateID, email.target, userID).then((result) =>
+          EmailJs.sendForm(serviceID, templateID, event.target, userID).then((result) =>
           {
+               ShowMessage();
+
                console.log(result.text);
           }, (error) =>
           {
                console.log(error.text);
           });
 
-          email.target.reset();
+          event.target.reset();
+     }
+
+     const ShowMessage = () =>
+     {
+          return alert(`Hi, your message has been sent to Billy!`);
      }
 
      return (
-          <form ref={referenceForm} onSubmit={SendEmail}>
+          <form ref={referenceForm} onSubmit={SendEmail} method="post">
                <FormControl isRequired={true}>
                     <Stack spacing={3}>
                          <Flex height="50vh" alignItems="center" justifyContent="center" mb={12} mt={18}>
