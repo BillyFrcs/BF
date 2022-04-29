@@ -83,7 +83,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Hello! I&apos;m Billy and I&apos;m a Computer Science Student at University.{' '}
-          My passionate are about Programming and Development to solve any problem and solution with code,
+          My passionate and interests are about Programming and Development to solve any problem and solution with code,
           especially in Game and Web Development.
 
           {/* Currently He&apos;s working on a personal project called
@@ -111,11 +111,11 @@ const Home = () => (
         </Heading>
         <SkillSection>
           <SkillSet>Game Development</SkillSet>
-          Unity Game Engine (PC, Mobile and WebGL)
+          Unity Game Engine
         </SkillSection>
         <SkillSection>
           <SkillSet>Web Development</SkillSet>
-          ASP.NET Core, NodeJS and ReactJS
+          ASP.NET Core, ReactJS and NodeJS
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
@@ -125,10 +125,12 @@ const Home = () => (
           <SkillSet>Dev Tools</SkillSet>
           Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub, GitLab and Azure DevOps
         </SkillSection>
-        <SkillSection>
+
+        {/* <SkillSection>
           <SkillSet>Design Tools</SkillSet>
           Figma and GIMP
-        </SkillSection>
+        </SkillSection> */}
+
       </Section>
 
       <Section delay={0.3}>

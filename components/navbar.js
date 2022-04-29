@@ -118,8 +118,11 @@ const Navbar = props =>
                 <MenuItem
                   as={Link}
                   href="https://github.com/BillyFrcs/BF"
-                  target="_blank">
-                  View Source
+                  target="_blank"
+                  style={{ gap: 3 }}
+                  pl={3}>
+                  <IoLogoGithub />
+                  Source
                 </MenuItem>
               </MenuList>
             </Menu>
