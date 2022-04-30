@@ -133,14 +133,14 @@ const Home = () => (
 
       </Section>
 
-      <Section delay={0.3}>
+      {/* <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I &hearts;
         </Heading>
         <Paragraph>
           Playing Video Games 🎮
         </Paragraph>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
