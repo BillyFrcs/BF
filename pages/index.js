@@ -119,11 +119,15 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
-          .NET C#, C/C++, Java and Javascript
+          .NET C#, C/C++, Java, Javascript and SQL
         </SkillSection>
         <SkillSection>
           <SkillSet>Dev Tools</SkillSet>
           Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub, GitLab and Azure DevOps
+        </SkillSection>
+        <SkillSection>
+          <SkillSet>Databases</SkillSet>
+          Microsoft SQL Server and MySQL
         </SkillSection>
 
         {/* <SkillSection>
