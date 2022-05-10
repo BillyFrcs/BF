@@ -123,7 +123,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Dev Tools</SkillSet>
-          Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub, GitLab and Azure DevOps
+          Visual Studio, Visual Studio Code, JetBrains Rider, JetBrains WebStorm, Git, GitHub, GitLab and Azure DevOps
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
