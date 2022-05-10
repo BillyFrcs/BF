@@ -119,7 +119,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
-          .NET C#, C/C++, Java, Javascript and SQL
+          C# .NET, C/C++, Java, Javascript and SQL
         </SkillSection>
         <SkillSection>
           <SkillSet>Dev Tools</SkillSet>
