@@ -115,11 +115,11 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Web Development</SkillSet>
-          ASP.NET Core (Web App | MVC), ReactJS and NodeJS
+          ASP.NET Core (Web App | Web API | MVC)
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
-          C#, C/C++, Java, Javascript and SQL
+          C#, C/C++ and Java
         </SkillSection>
         <SkillSection>
           <SkillSet>Dev Tools</SkillSet>
