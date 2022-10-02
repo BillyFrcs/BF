@@ -147,7 +147,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On The Internet
+          Let&apos;s Connected
         </Heading>
         <List>
           <ListItem>
