@@ -115,7 +115,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Web Development</SkillSet>
-          ASP.NET Core (Web App | MVC)
+          ASP.NET Core (Web App | MVC | Web API)
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
@@ -129,11 +129,10 @@ const Home = () => (
           <SkillSet>Databases</SkillSet>
           Microsoft SQL Server and MySQL
         </SkillSection>
-
-        {/* <SkillSection>
+        <SkillSection>
           <SkillSet>Design Tools</SkillSet>
           Figma and GIMP
-        </SkillSection> */}
+        </SkillSection>
       </Section>
 
       {/* <Section delay={0.3}>
