@@ -25,7 +25,7 @@ const Games = () => (
           <GridItem
             title="Weadow Rise"
             thumbnail={WeadowRise}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
+            href="https://billyfrcs.itch.io/weadowrise"
           />
         </SimpleGrid>
       </Section>
@@ -40,7 +40,7 @@ const Games = () => (
           <GridItem
             title="Snake Boxes"
             thumbnail={SnakeBoxes}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
+            href="https://billyfrcs.itch.io/snakeboxes"
           />
         </SimpleGrid>
       </Section>
