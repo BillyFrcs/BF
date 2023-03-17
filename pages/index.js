@@ -9,27 +9,30 @@ import
   Button,
   List,
   ListItem,
-  useColorModeValue,
-  chakra
+  useColorModeValue
+  // chakra
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { SkillSection, SkillSet } from '../components/skill'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoTwitter } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
-import Image from 'next/image'
+
+// import Image from 'next/image'
 
 // import { GridItem } from '../components/grid-item'
 // import BasketBox from '../public/images/Games/BasketBoxIcon.png'
 // import WeadowRise from '../public/images/Games/WeadowRiseIcon.png'
 
+/*
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
 const Profile = "/images/profile/Billy.png";
+*/
 
 const Home = () => (
   <Layout>
@@ -44,13 +47,14 @@ const Home = () => (
       </Box>
 
       <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
+        <Box flexGrow={1} my={5} textAlign={"center"}>
           <Heading as="h2" variant="page-title">
             Billy Franscois
           </Heading>
           <p>Computer Science Student</p>
         </Box>
-        <Box
+
+        {/* <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
           ml={{ md: 6 }}
@@ -74,7 +78,7 @@ const Home = () => (
               height="100%"
             />
           </Box>
-        </Box>
+        </Box> */}
       </Box>
 
       <Section delay={0.1}>
@@ -84,7 +88,7 @@ const Home = () => (
         <Paragraph>
           Hello! I&apos;m Billy and I&apos;m a Computer Science Student at University.{' '}
           My passionate and interests are about Programming and Development to solve any problem and solution with code,
-          especially in Game and Web Development.
+          especially in Game and Web Development, and also i love to play Basketball as a hobby.
 
           {/* Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
@@ -165,6 +169,16 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}>
+                @billyfrcs
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/billyfrcs" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}>
                 @billyfrcs
               </Button>
             </Link>
