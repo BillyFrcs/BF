@@ -24,7 +24,7 @@ $PROJECT_ROOT
 └── public
 ```
 
-## 🛠 Installation And Setup
+## 🛠 Setup And Installation
 
 1. Installation via Node.js with npm package `npm install`
 2. Install Next.js with `npm install next`
