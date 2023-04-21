@@ -88,7 +88,7 @@ const Home = () => (
         <Paragraph>
           Hello! I&apos;m Billy and I&apos;m a Computer Science Student at University.{' '}
           My passionate and interests are about Programming and Development to solve any problem and solution with code,
-          especially in Game and Web Development, and also i love to play Basketball as a hobby.
+          especially in Game and Web Development.
 
           {/* Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
