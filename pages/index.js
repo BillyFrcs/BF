@@ -1,18 +1,19 @@
-import NextLink from 'next/link'
-import
-{
-  Link,
-  Container,
-  Heading,
-  Box,
-  // SimpleGrid,
-  Button,
-  List,
-  ListItem,
-  useColorModeValue
-  // chakra
+import {
+Link,
+Container,
+Heading,
+Box,
+// SimpleGrid,
+Button,
+List,
+ListItem,
+useColorModeValue
+// chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+
+// import NextLink from 'next/link'
+// import { ChevronRightIcon } from '@chakra-ui/icons'
+
 import Paragraph from '../components/paragraph'
 import { SkillSection, SkillSet } from '../components/skill'
 import Layout from '../components/layouts/article'
@@ -21,7 +22,6 @@ import { IoLogoInstagram, IoLogoGithub, IoLogoTwitter } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
 
 // import Image from 'next/image'
-
 // import { GridItem } from '../components/grid-item'
 // import BasketBox from '../public/images/Games/BasketBoxIcon.png'
 // import WeadowRise from '../public/images/Games/WeadowRiseIcon.png'
@@ -86,9 +86,8 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Hello! I&apos;m Billy and I&apos;m a Computer Science Student at University.{' '}
-          My passionate and interests are about Programming and Development to solve any problem and solution with code,
-          especially in Game and Web Development.
+          Hello! I&apos;m Billy and I&apos;m a Computer Science Student.{' '}
+          I&apos;m passionate about Software Development and Web Development to solve any real-life problem with tech skills.
 
           {/* Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
@@ -100,13 +99,15 @@ const Home = () => (
           </Link> */}
 
         </Paragraph>
-        <Box align="center" my={4}>
+
+        {/* <Box align="center" my={4}>
           <NextLink href="/Projects" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Projects
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
+        
       </Section>
 
       <Section delay={0.2}>
@@ -114,28 +115,28 @@ const Home = () => (
           Skill Set
         </Heading>
         <SkillSection>
-          <SkillSet>Game Development</SkillSet>
-          Unity Game Engine
+          <SkillSet>Web Development</SkillSet>
+          ASP.NET Core (Web App | Web API | MVC)
         </SkillSection>
         <SkillSection>
-          <SkillSet>Web Development</SkillSet>
-          ASP.NET Core (Web App | MVC | Web API)
+          <SkillSet>Game Development</SkillSet>
+          Unity Engine
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
-          C#, C/C++ and Java
+          C# and JavaScript
         </SkillSection>
         <SkillSection>
           <SkillSet>Dev Tools</SkillSet>
-          Visual Studio, Visual Studio Code, JetBrains Rider, Git, GitHub, GitLab and Azure DevOps
+          Visual Studio, Visual Studio Code, JetBrains Rider, Postman, Git, GitHub, GitLab and Azure DevOps
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
           Microsoft SQL Server and MySQL
         </SkillSection>
         <SkillSection>
-          <SkillSet>Design Tools</SkillSet>
-          Figma and GIMP
+          <SkillSet>Design Tool</SkillSet>
+          Figma
         </SkillSection>
       </Section>
 
@@ -210,13 +211,14 @@ const Home = () => (
           </GridItem>
         </SimpleGrid> */}
 
-        <Box align="center" my={4}>
+        {/* <Box align="center" my={4}>
           <NextLink href="/Games" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Games
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
+
       </Section>
     </Container>
   </Layout>
