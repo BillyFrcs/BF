@@ -118,6 +118,10 @@ const Home = () => (
           ASP.NET Core (Web App | Web API | MVC)
         </SkillSection>
         <SkillSection>
+          <SkillSet>Cloud Computing</SkillSet>
+          Google Cloud Platform (GCP)
+        </SkillSection>
+        <SkillSection>
           <SkillSet>Game Development</SkillSet>
           Unity Engine
         </SkillSection>
@@ -127,15 +131,19 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Dev Tools</SkillSet>
-          Visual Studio, Visual Studio Code, JetBrains Rider, Postman, Git, GitHub, GitLab and Azure DevOps
+          Visual Studio, Visual Studio Code, JetBrains Rider, JetBrains DataGrip, Postman, Git, GitHub, GitLab, Azure DevOps, Docker
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
-          Microsoft SQL Server and MySQL
+          Microsoft SQL Server, MySQL
         </SkillSection>
         <SkillSection>
           <SkillSet>Design Tool</SkillSet>
           Figma
+        </SkillSection>
+        <SkillSection>
+          <SkillSet>Video Editing Tool</SkillSet>
+          DaVinci Resolve
         </SkillSection>
       </Section>
 
@@ -184,7 +192,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/billyfrcs/" target="_blank">
+            <Link href="https://linkedin.com/in/billyfrcs/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
