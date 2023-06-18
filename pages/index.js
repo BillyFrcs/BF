@@ -135,11 +135,11 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
-          Microsoft SQL Server, MySQL
+          Microsoft SQL Server, MySQL, Firebase
         </SkillSection>
         <SkillSection>
           <SkillSet>Design Tool</SkillSet>
-          Figma
+          Figma and Photoshop
         </SkillSection>
         <SkillSection>
           <SkillSet>Video Editing Tool</SkillSet>
