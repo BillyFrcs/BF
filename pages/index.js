@@ -139,7 +139,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Design Tool</SkillSet>
-          Figma and Photoshop
+          Figma and Adobe Photoshop
         </SkillSection>
         <SkillSection>
           <SkillSet>Video Editing Tool</SkillSet>
