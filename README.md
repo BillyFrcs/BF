@@ -1,4 +1,4 @@
-<h1 align="center"> Portfolio Website </h1>
+<h1 align="center">Personal Portfolio Website</h1>
 
 My personal portfolio website, which features some of my Github Projects especially my technical skills.
 
