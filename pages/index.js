@@ -86,7 +86,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          I&apos;m passionate about Software Development and Web Development to solve any real-life problem with tech skills.
+          I&apos;m passionate about Software Development and Web Development to solve real-life problem with tech skills.
 
           {/* Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
@@ -115,7 +115,7 @@ const Home = () => (
         </Heading>
         <SkillSection>
           <SkillSet>Web Development</SkillSet>
-          ASP.NET Core (Web App | Web API | MVC)
+          ASP.NET Core (Web App | Web API | MVC), ReactJS, NextJS
         </SkillSection>
         <SkillSection>
           <SkillSet>Cloud Computing</SkillSet>
@@ -127,19 +127,19 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
-          C# and JavaScript
+          C#, JavaScript(NodeJS)
         </SkillSection>
         <SkillSection>
-          <SkillSet>Dev Tools</SkillSet>
-          Visual Studio, Visual Studio Code, JetBrains Rider, JetBrains DataGrip, Postman, Git, GitHub, GitLab, Azure DevOps, Docker
+          <SkillSet>Development Tools</SkillSet>
+          Visual Studio, Visual Studio Code, JetBrains Rider, Postman, Git, GitHub, GitLab, Azure DevOps, Docker
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
           Microsoft SQL Server, MySQL, Firebase
         </SkillSection>
         <SkillSection>
-          <SkillSet>Design Tool</SkillSet>
-          Figma and Adobe Photoshop
+          <SkillSet>Design Tools</SkillSet>
+          Figma, Adobe Photoshop
         </SkillSection>
         <SkillSection>
           <SkillSet>Video Editing Tool</SkillSet>
