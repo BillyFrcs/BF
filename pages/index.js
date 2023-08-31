@@ -18,7 +18,7 @@ import Paragraph from '../components/paragraph'
 import { SkillSection, SkillSet } from '../components/skill'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoInstagram, IoLogoGithub, IoLogoTwitter } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub /*, IoLogoTwitter */ } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
 
 // import Image from 'next/image'
@@ -182,16 +182,6 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/billyfrcs" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}>
-                @billyfrcs
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link href="https://linkedin.com/in/billyfrcs/" target="_blank">
               <Button
                 variant="ghost"
@@ -201,6 +191,16 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+      {/* <ListItem>
+            <Link href="https://twitter.com/billyfrcs" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}>
+                @billyfrcs
+              </Button>
+            </Link>
+          </ListItem> */}
         </List>
 
         {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
