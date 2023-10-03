@@ -51,7 +51,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Billy Franscois
           </Heading>
-          <p>Computer Science Student</p>
+          <p>Computer Science Student | Programmer | Software Developer</p>
         </Box>
 
         {/* <Box
@@ -86,7 +86,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          I&apos;m passionate about Software Development and Web Development to solve real-life problem with tech skills.
+          I&apos;m passionate about Software Development solve real-life problem with tech skills.
 
           {/* Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
@@ -127,11 +127,11 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
-          C#, JavaScript(NodeJS)
+          C#, JavaScript (NodeJS)
         </SkillSection>
         <SkillSection>
           <SkillSet>Development Tools</SkillSet>
-          Visual Studio, Visual Studio Code, JetBrains Rider, Postman, Git, GitHub, GitLab, Azure DevOps, Docker
+          Visual Studio, Visual Studio Code, JetBrains Rider, Postman API, Git, GitHub, GitLab, Azure DevOps, Docker
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
