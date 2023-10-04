@@ -23,7 +23,7 @@ const Project = () => (
                     <ListItem>
                          <Meta>View</Meta>
                          <Link href=" ">
-                              Bill Guys (Coming soon) <ExternalLinkIcon mx="2px" />
+                              Bill Guys <ExternalLinkIcon mx="2px" />
                          </Link>
                     </ListItem>
 
