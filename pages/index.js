@@ -51,7 +51,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Billy Franscois
           </Heading>
-          <p>Computer Science Student | Programmer | Software Developer</p>
+          <p>Informatics Student | Programmer | Software Developer</p>
         </Box>
 
         {/* <Box
