@@ -141,10 +141,6 @@ const Home = () => (
           <SkillSet>Design Tools</SkillSet>
           Figma, Adobe Photoshop
         </SkillSection>
-        <SkillSection>
-          <SkillSet>Video Editing Tool</SkillSet>
-          DaVinci Resolve
-        </SkillSection>
       </Section>
 
       {/* <Section delay={0.3}>
