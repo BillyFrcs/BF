@@ -86,7 +86,7 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          I&apos;m passionate about Software Development to solve real-life problem with tech skills.
+          I&apos;m passionate about Software Development to solve real-life problems with my tech skills.
 
           {/* Currently He&apos;s working on a personal project called
           <NextLink href="/Projects/BillGuys" scroll={false}>
