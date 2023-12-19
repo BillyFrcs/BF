@@ -119,7 +119,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Cloud Computing</SkillSet>
-          Google Cloud Platform (GCP)
+          Google Cloud Platform (GCP), Microsoft Azure
         </SkillSection>
         <SkillSection>
           <SkillSet>Game Development</SkillSet>
@@ -131,7 +131,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Development Tools</SkillSet>
-          Visual Studio, Visual Studio Code, JetBrains Rider, Postman API, Git, GitHub, GitLab, Azure DevOps, Docker
+          Visual Studio, Visual Studio Code, JetBrains Rider, JetBrains WebStorm, Postman API, Git, GitHub, GitLab, Azure DevOps, Docker
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
