@@ -18,7 +18,6 @@ const Main = ({ children, router }) =>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Billy's Homepage" />
         <meta name="author" content="Billy Franscois" />
-        <meta name="author" content="BillyFrcs" />
         <link rel="BF" href="/BF.png" />
         <link rel="shortcut icon" href="/BF.png" type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
