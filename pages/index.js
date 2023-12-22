@@ -78,6 +78,7 @@ const Home = () => (
               objectFit="cover"
               objectPosition="50% 1%"
               loading='lazy'
+              priority={true}
             />
           </Box>
         </Box>
