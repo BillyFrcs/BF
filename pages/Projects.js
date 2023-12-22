@@ -66,7 +66,7 @@ const Projects = () => (
 
         <Section delay={0.1}>
           <WorkGridItem id="CoronaRunner" thumbnail={CoronaRunner} title="Corona Runner">
-            Massively Obstacle Course Game
+            2D Endless Runner Game Corona Runner
           </WorkGridItem>
         </Section>
       </SimpleGrid>

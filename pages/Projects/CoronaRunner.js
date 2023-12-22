@@ -12,11 +12,7 @@ const Project = () => (
                </Title>
 
                <Paragraph>
-                    Massively Multiplayer Party Game, Bill Guys Ultimate Knockout is a Obstacle Course Game that inspired by <Link href="https://www.fallguys.com/" target="_blank">Fall Guys</Link> Game.
-                    Currently the Game is just a Prototype.
-               </Paragraph>
-               <Paragraph>
-                    The project is using the Unity Universal Render Pipeline template to create high quality graphics and lightly Games.
+                    Corona Runner is a 2D endless runner Game that theme about Corona Virus, the main Gameplay is just Player should avoid the virus when it spawn non stop and get the best High Score.
                </Paragraph>
 
                <List ml={4} my={4}>
