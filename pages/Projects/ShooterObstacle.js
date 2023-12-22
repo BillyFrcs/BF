@@ -48,7 +48,7 @@ const Project = () => (
         </ListItem>
 
         <ListItem>
-          <Meta>Status Game</Meta>
+          <Meta>Game Status</Meta>
           <span>Released</span>
         </ListItem>
       </List>
