@@ -23,12 +23,14 @@ const VoxelDog = () =>
       20 * Math.cos(0.2 * Math.PI)
     )
   )
+  
   const [scene] = useState(new THREE.Scene())
   const [_controls, setControls] = useState()
 
   const handleWindowResize = useCallback(() =>
   {
     const { current: container } = refContainer
+
     if (container && renderer) {
       const scW = container.clientWidth
       const scH = container.clientHeight
@@ -49,10 +51,13 @@ const VoxelDog = () =>
         antialias: true,
         alpha: true
       })
+
       renderer.setPixelRatio(window.devicePixelRatio)
       renderer.setSize(scW, scH)
       renderer.outputEncoding = THREE.sRGBEncoding
+
       container.appendChild(renderer.domElement)
+
       setRenderer(renderer)
 
       // 640 -> 240
@@ -66,16 +71,21 @@ const VoxelDog = () =>
         0.01,
         50000
       )
+
       camera.position.copy(initialCameraPosition)
       camera.lookAt(target)
+
       setCamera(camera)
 
       const ambientLight = new THREE.AmbientLight(0xcccccc, 1)
+
       scene.add(ambientLight)
 
       const controls = new OrbitControls(camera, renderer.domElement)
+
       controls.autoRotate = true
       controls.target = target
+
       setControls(controls)
 
       loadGLTFModel(scene, '/dog.glb', {
@@ -89,6 +99,7 @@ const VoxelDog = () =>
 
       let req = null
       let frame = 0
+
       const animate = () =>
       {
         req = requestAnimationFrame(animate)
@@ -100,10 +111,9 @@ const VoxelDog = () =>
           const rotationSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
           camera.position.y = 10
-          camera.position.x =
-            p.x * Math.cos(rotationSpeed) + p.z * Math.sin(rotationSpeed)
-          camera.position.z =
-            p.z * Math.cos(rotationSpeed) - p.x * Math.sin(rotationSpeed)
+          camera.position.x = p.x * Math.cos(rotationSpeed) + p.z * Math.sin(rotationSpeed)
+          camera.position.z = p.z * Math.cos(rotationSpeed) - p.x * Math.sin(rotationSpeed)
+
           camera.lookAt(target)
         } else {
           controls.update()
