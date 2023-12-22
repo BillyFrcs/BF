@@ -5,7 +5,7 @@ import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Project = () => (
-     <Layout title="Basket Box">
+     <Layout title="Bill Guys">
           <Container>
                <Title>
                     Bill Guys <Badge>2022</Badge>
@@ -22,7 +22,7 @@ const Project = () => (
                <List ml={4} my={4}>
                     <ListItem>
                          <Meta>View</Meta>
-                         <Link href=" ">
+                         <Link href="https://github.com/BillyFrcs/BillGuys" target="_blank">
                               Bill Guys <ExternalLinkIcon mx="2px" />
                          </Link>
                     </ListItem>

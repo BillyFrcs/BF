@@ -16,7 +16,7 @@ import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Project = () => (
-  <Layout title="The four painters">
+  <Layout title="Shooter Obstacle">
     <Container>
       <Title>
         Shooter Obstacle <Badge>2022</Badge>

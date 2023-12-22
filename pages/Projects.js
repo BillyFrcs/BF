@@ -12,6 +12,7 @@ import ShooterGlow from '../public/images/projects/Games/ShooterGlow.png'
 import SnakeBoxes from '../public/images/projects/Games/SnakeBoxes.png'
 import BillGuys from '../public/images/projects/Games/BillGuys.png'
 import RacerEternity from '../public/images/projects/Games/RacerEternity.png'
+import CoronaRunner from '../public/images/projects/Games/CoronaRunner.png'
 
 const Projects = () => (
   <Layout title="Projects">
@@ -59,6 +60,12 @@ const Projects = () => (
 
         <Section delay={0.1}>
           <WorkGridItem id="BillGuys" thumbnail={BillGuys} title="Bill Guys">
+            Massively Obstacle Course Game
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="CoronaRunner" thumbnail={CoronaRunner} title="Corona Runner">
             Massively Obstacle Course Game
           </WorkGridItem>
         </Section>
