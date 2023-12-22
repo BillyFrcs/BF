@@ -7,8 +7,8 @@ Box,
 Button,
 List,
 ListItem,
-useColorModeValue
-// chakra
+useColorModeValue,
+chakra
 } from '@chakra-ui/react'
 
 // import NextLink from 'next/link'
@@ -21,18 +21,16 @@ import Section from '../components/section'
 import { IoLogoInstagram, IoLogoGithub /*, IoLogoTwitter */ } from 'react-icons/io5'
 import { FaLinkedinIn } from "react-icons/fa";
 
-// import Image from 'next/image'
+import Image from 'next/image'
 // import { GridItem } from '../components/grid-item'
 // import BasketBox from '../public/images/Games/BasketBoxIcon.png'
 // import WeadowRise from '../public/images/Games/WeadowRiseIcon.png'
 
-/*
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
-const Profile = "/images/profile/Billy.png";
-*/
+const Profile = "/images/profile/Billy.jpg";
 
 const Home = () => (
   <Layout>
@@ -54,7 +52,7 @@ const Home = () => (
           <p>Informatics Student | Programmer | Software Developer</p>
         </Box>
 
-        {/* <Box
+        <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
           ml={{ md: 6 }}
@@ -76,9 +74,13 @@ const Home = () => (
               borderRadius='full'
               width="100%"
               height="100%"
+              fill={true}
+              objectFit="cover"
+              objectPosition="50% 1%"
+              loading='lazy'
             />
           </Box>
-        </Box> */}
+        </Box>
       </Box>
 
       <Section delay={0.1}>
@@ -187,6 +189,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          
       {/* <ListItem>
             <Link href="https://twitter.com/billyfrcs" target="_blank">
               <Button
