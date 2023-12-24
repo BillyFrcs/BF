@@ -38,7 +38,7 @@ const Project = () => (
 
                     <ListItem>
                          <Meta>Platform</Meta>
-                         <span>Windows | WebGL</span>
+                         <span>Windows | Web</span>
                     </ListItem>
 
                     <ListItem>
