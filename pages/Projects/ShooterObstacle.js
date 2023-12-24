@@ -22,9 +22,7 @@ const Project = () => (
         Shooter Obstacle <Badge>2022</Badge>
       </Title>
       <Paragraph>
-        A video work generated with deep learning, imitating famous four
-        painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai.
+        Simple 3D Runner Shooter Game Shooter Obstacle. The main Gameplay is just player should shooting all the enemy obstacle that trying to push the character. And player should move from the current platform to the next platform that because the current platform will destroyed every second and the next platform will spawn with amount of time.
       </Paragraph>
 
       <List ml={4} my={4}>
