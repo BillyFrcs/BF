@@ -80,7 +80,8 @@ const Navbar = props =>
           <LinkItem href="/Contact" path={path}>
             Contact
           </LinkItem>
-          <LinkItem
+
+          {/* <LinkItem
             target="_blank"
             href="https://github.com/BillyFrcs/BF"
             path={path}
@@ -89,10 +90,9 @@ const Navbar = props =>
             style={{ gap: 4 }}
             pl={2}>
             
-            {/* <IoLogoGithub />
-            Source */}
-
-          </LinkItem>
+            <IoLogoGithub />
+          </LinkItem> */}
+          
         </Stack>
 
         <Box flex={1} align="right">
