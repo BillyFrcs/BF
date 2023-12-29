@@ -11,7 +11,7 @@ const Project = () => (
         Basket Box <Badge>2022</Badge>
       </Title>
       <Paragraph>
-        Basket Box is a 3D Basketball Game with Low Poly Graphics and you can play against some bot(AI) and get the best high score.
+        Basket Box is a 3D Basketball Game with Low Poly Graphics and you can play against some bot and get the best high score.
         This project is using the Universal Render Pipeline from Unity to create good quality graphics and lightly Games to play without ran any issues.
       </Paragraph>
       <List ml={4} my={4}>
