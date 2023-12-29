@@ -12,9 +12,9 @@ export const ContactForm = () =>
      {
           event.preventDefault();
 
-          const serviceID = 'service_gmail';
-          const templateID = 'template_contact-form';
-          const userID = '5R4L4mkrB0Ah5cIKl';
+          const serviceID = process.env.serviceID;
+          const templateID = process.env.templateID;
+          const userID = process.env.userID;
 
           EmailJs.sendForm(serviceID, templateID, event.target, userID).then((result) =>
           {
