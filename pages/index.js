@@ -118,7 +118,7 @@ const Home = () => (
         </Heading>
         <SkillSection>
           <SkillSet>Web Development</SkillSet>
-          ASP.NET Core, ReactJS, NextJS
+          ASP.NET Core, NextJS
         </SkillSection>
         <SkillSection>
           <SkillSet>Cloud Computing</SkillSet>
