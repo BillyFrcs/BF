@@ -1,37 +1,39 @@
-import { Flex, Heading, Input, Button, FormControl, Textarea, Stack } from '@chakra-ui/react'
+import { Flex, Heading, Input, Button, FormControl, Textarea, Stack, Alert, AlertIcon } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
 import React, { useRef } from 'react';
 import EmailJs from 'emailjs-com'
 
-export const ContactForm = () =>
-{
+export const ContactForm = () => {
      const referenceForm = useRef();
 
-     const SendEmail = (event) =>
-     {
+     const SendEmail = (event) => {
           event.preventDefault();
 
           const serviceID = process.env.serviceID;
           const templateID = process.env.templateID;
           const userID = process.env.userID;
 
-          EmailJs.sendForm(serviceID, templateID, event.target, userID).then((result) =>
-          {
+          EmailJs.sendForm(serviceID, templateID, event.target, userID).then((result) => {
                ShowMessage();
 
                console.log(result.text);
-          }, (error) =>
-          {
+          }, (error) => {
                console.log(error.text);
           });
 
           event.target.reset();
      }
 
-     const ShowMessage = () =>
-     {
-          return alert(`Hi, your message has been sent to Billy!`);
+     const ShowMessage = () => {
+          alert(`Hi there, Thanks for reaching me out!`);
+
+          <Stack spacing={3}>
+               <Alert status='success'>
+                    <AlertIcon />
+                    Hi there, Thanks for reaching me out!
+               </Alert>
+          </Stack>
      }
 
      return (
@@ -40,6 +42,7 @@ export const ContactForm = () =>
                     <Stack spacing={3}>
                          <Flex height="50vh" alignItems="center" justifyContent="center" mb={12} mt={18}>
                               <Flex direction="column" p={12} rounded={6}>
+
                                    <Heading mb={6} align="center">Contact Me</Heading>
 
                                    <Input placeholder="Name" _placeholder={{ color: 'inherit', opacity: 0.5 }} variant="filled" type="text" size='lg' mb={6} name="name" id="name" required />
