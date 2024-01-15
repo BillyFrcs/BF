@@ -114,7 +114,7 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Skill Set
+          Stack
         </Heading>
         <SkillSection>
           <SkillSet>Web Development</SkillSet>
