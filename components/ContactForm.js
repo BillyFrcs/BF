@@ -17,16 +17,16 @@ export const ContactForm = () => {
           EmailJs.sendForm(serviceID, templateID, event.target, userID).then((result) => {
                ShowMessage();
 
-               console.log(result.text);
+               // console.log(result.text);
           }, (error) => {
-               console.log(error.text);
+               // console.log(error.text);
           });
 
           event.target.reset();
      }
 
      const ShowMessage = () => {
-          alert(`Hi there, Thanks for reaching me out!`);
+          alert(`Hi there, Thanks for reaching out to me!`);
 
           <Stack spacing={3}>
                <Alert status='success'>

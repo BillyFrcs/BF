@@ -1,14 +1,14 @@
 import {
-Link,
-Container,
-Heading,
-Box,
-// SimpleGrid,
-Button,
-List,
-ListItem,
-useColorModeValue,
-chakra
+  Link,
+  Container,
+  Heading,
+  Box,
+  // SimpleGrid,
+  Button,
+  List,
+  ListItem,
+  useColorModeValue,
+  chakra
 } from '@chakra-ui/react'
 
 // import NextLink from 'next/link'
@@ -22,6 +22,7 @@ import { IoLogoInstagram, IoLogoGithub /*, IoLogoTwitter */ } from 'react-icons/
 import { FaLinkedinIn } from "react-icons/fa";
 
 import Image from 'next/image'
+
 // import { GridItem } from '../components/grid-item'
 // import BasketBox from '../public/images/Games/BasketBoxIcon.png'
 // import WeadowRise from '../public/images/Games/WeadowRiseIcon.png'
@@ -49,7 +50,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Billy Franscois
           </Heading>
-          <p>Informatics Student | Software Developer | IT Specialist</p>
+          <p>Software Developer | IT Specialist</p>
         </Box>
 
         <Box
@@ -109,12 +110,12 @@ const Home = () => (
             </Button>
           </NextLink>
         </Box> */}
-        
+
       </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Stack
+          Skills
         </Heading>
         <SkillSection>
           <SkillSet>Web Development</SkillSet>
@@ -190,8 +191,8 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          
-      {/* <ListItem>
+
+          {/* <ListItem>
             <Link href="https://twitter.com/billyfrcs" target="_blank">
               <Button
                 variant="ghost"
