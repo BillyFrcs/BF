@@ -126,7 +126,7 @@ const Navbar = props =>
                   style={{ gap: 3 }}
                   pl={3}>
                   <IoLogoGithub />
-                  Source
+                  Github
                 </MenuItem>
 
               </MenuList>
