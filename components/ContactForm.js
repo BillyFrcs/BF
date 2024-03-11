@@ -14,10 +14,12 @@ export const ContactForm = () => {
           const templateID = process.env.templateID;
           const userID = process.env.userID;
 
+          // eslint-disable-next-line no-unused-vars
           EmailJs.sendForm(serviceID, templateID, event.target, userID).then((result) => {
                ShowMessage();
 
                // console.log(result.text);
+               // eslint-disable-next-line no-unused-vars
           }, (error) => {
                // console.log(error.text);
           });
