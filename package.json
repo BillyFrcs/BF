@@ -1,7 +1,7 @@
 {
-  "name": "personal-website",
+  "name": "personal-portfolio-website",
   "version": "1.0.0",
-  "description": "Billy's website",
+  "description": "Billy's Personal Portfolio Website.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
