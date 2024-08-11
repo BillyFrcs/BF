@@ -143,7 +143,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Design Tools</SkillSet>
-          Figma, Adobe Photoshop
+          Figma UI/Ux Design
         </SkillSection>
       </Section>
 
