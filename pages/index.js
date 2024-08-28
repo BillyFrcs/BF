@@ -131,7 +131,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Programming Languages</SkillSet>
-          C# (.NET Core), JavaScript (NodeJS), Python
+          C# (.NET Core), JavaScript (NodeJS), Python, SQL
         </SkillSection>
         <SkillSection>
           <SkillSet>Development Tools</SkillSet>
@@ -139,7 +139,7 @@ const Home = () => (
         </SkillSection>
         <SkillSection>
           <SkillSet>Databases</SkillSet>
-          Microsoft SQL Server, MySQL, Firebase
+          SQL Server, MySQL, Firebase
         </SkillSection>
         <SkillSection>
           <SkillSet>Design Tools</SkillSet>
