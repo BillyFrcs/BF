@@ -50,7 +50,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Billy Franscois
           </Heading>
-          <p>Software Developer | IT Consultant</p>
+          <p>Software Engineer | Game Developer</p>
         </Box>
 
         <Box
